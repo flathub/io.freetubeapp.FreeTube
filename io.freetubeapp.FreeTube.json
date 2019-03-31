@@ -14,7 +14,8 @@
         "--socket=x11",
         "--socket=pulseaudio",
         "--share=network",
-        "--env=TZ=UTC"
+        "--env=TZ=UTC",
+        "--filesystem=xdg-download"
     ],
     "build-options" : {
         "cflags": "-O2 -g",
