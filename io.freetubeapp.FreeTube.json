@@ -56,17 +56,9 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/FreeTubeApp/FreeTube/archive/v0.5.1-beta.tar.gz",
-                    "sha256": "38881b3da23a621c50a0d0d9cf6113b8f7ab4805b67b66af7a2edc483182667a",
+                    "url": "https://github.com/FreeTubeApp/FreeTube/archive/v0.5.2-beta.tar.gz",
+                    "sha256": "d07173ef4f3e0070a8c2b4e2ee1772f470b9d0f363b384a68a8e1b936b8d9d16",
                     "dest": "main"
-                },
-                {
-                    "type": "patch",
-                    "path": "update-lock.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "commandline.patch"
                 },
                 "generated-sources.json",
                 /* Wrapper to launch the app */
