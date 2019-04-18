@@ -56,8 +56,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/FreeTubeApp/FreeTube/archive/v0.5.2-beta.tar.gz",
-                    "sha256": "d07173ef4f3e0070a8c2b4e2ee1772f470b9d0f363b384a68a8e1b936b8d9d16",
+                    "url": "https://github.com/FreeTubeApp/FreeTube/archive/v0.5.3-beta.tar.gz",
+                    "sha256": "87051ca3ed0b7000b7f2bdc12d7514bd3eb3b074e1cb9423a2bb0daba6ed76ca",
                     "dest": "main"
                 },
                 "generated-sources.json",
