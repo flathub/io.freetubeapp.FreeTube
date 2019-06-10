@@ -46,4 +46,9 @@
     <content_attribute id="social-audio">moderate</content_attribute>
     <content_attribute id="social-contacts">intense</content_attribute>
   </content_rating>
+  <releases>
+    <release version="0.5.3 Beta" date="2019-01-01">
+      <url>https://write.as/freetube/freetube-release-0-5-3-beta-hotfix</url>
+    </release>
+  </releases>
 </application>
