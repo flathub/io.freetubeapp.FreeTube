@@ -6,6 +6,9 @@
     "sdk": "org.freedesktop.Sdk",
     "base": "org.electronjs.Electron2.BaseApp",
     "base-version": "18.08",
+    "sdk-extensions": [
+        "org.freedesktop.Sdk.Extension.node10"
+    ],
     "command": "run.sh",
     "separate-locales": false,
     "finish-args": [
@@ -27,26 +30,15 @@
     "modules": [
         {
             "name": "nodejs",
-            "cleanup": [
-                "/include",
-                "/share",
-                "/app/lib/node_modules/npm/changelogs",
-                "/app/lib/node_modules/npm/doc",
-                "/app/lib/node_modules/npm/html",
-                "/app/lib/node_modules/npm/man",
-                "/app/lib/node_modules/npm/scripts"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://nodejs.org/dist/v10.16.0/node-v10.16.0.tar.xz",
-                    "sha256": "18e37f891d10ea7fbc8f6410c444c2b1d9cc3cbbb1d35aa9c41f761816956608"
-                }
+            "buildsystem": "simple",
+            "build-commands": [
+                "/usr/lib/sdk/node10/install.sh"
             ]
         },
         {
             "name": "freetube",
             "build-options" : {
+                "append-path": "/usr/lib/sdk/node10/bin",
                 "env": {
                     /* Need this for electron-download to find the cached electron binary */
                     "electron_config_cache": "/run/build/freetube/npm-cache"
@@ -69,7 +61,7 @@
                 {
                     "type": "script",
                     "dest-filename": "run.sh",
-                    "commands": [ "TMPDIR=\"$XDG_RUNTIME_DIR/app/io.freetubeapp.FreeTube\" exec /app/main/node_modules/.bin/electron /app/main \"\" \"$@\"" ]
+                    "commands": [ "PATH=\"$PATH:/app/node/bin\" TMPDIR=\"$XDG_RUNTIME_DIR/app/io.freetubeapp.FreeTube\" exec /app/main/node_modules/.bin/electron /app/main \"\" \"$@\"" ]
                 },
                 {
                     "type": "file",
