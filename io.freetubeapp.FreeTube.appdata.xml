@@ -47,10 +47,10 @@
     <content_attribute id="social-contacts">intense</content_attribute>
   </content_rating>
   <releases>
-    <release version="0.6.0 Beta" date="2019-01-01">
+    <release version="0.6.0 Beta" date="2019-06-14">
       <url>https://freetube.writeas.com/freetube-release-0-6-0-beta-1080p-and-a-lot-of-qol</url>
     </release>
-    <release version="0.5.3 Beta" date="2019-01-01">
+    <release version="0.5.3 Beta" date="2019-04-18">
       <url>https://write.as/freetube/freetube-release-0-5-3-beta-hotfix</url>
     </release>
   </releases>
