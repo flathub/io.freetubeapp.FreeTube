@@ -26,19 +26,19 @@
   <screenshots>
     <screenshot type="default">
       <caption>The main FreeTube window</caption>
-      <image type="source" width="1411" height="1123">https://freetubeapp.io/images/FreeTube1.png</image>
+      <image type="source" width="1459" height="1169">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/44b4083d8f43d02ee23b2ba9f9a5d2c8d812b609/src/images/FreeTube1.png</image>
     </screenshot>
     <screenshot>
       <caption>Watching a video</caption>
-      <image type="source" width="1411" height="1123">https://freetubeapp.io/images/FreeTube2.png</image>
+      <image type="source" width="1459" height="1169">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/44b4083d8f43d02ee23b2ba9f9a5d2c8d812b609/src/images/FreeTube2.png</image>
     </screenshot>
     <screenshot>
       <caption>Settings</caption>
-      <image type="source" width="1411" height="1123">https://freetubeapp.io/images/FreeTube3.png</image>
+      <image type="source" width="1459" height="1169">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/44b4083d8f43d02ee23b2ba9f9a5d2c8d812b609/src/images/FreeTube3.png</image>
     </screenshot>
     <screenshot>
       <caption>Dark theme</caption>
-      <image type="source" width="1411" height="1123">https://freetubeapp.io/images/FreeTube4.png</image>
+      <image type="source" width="1459" height="1169">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/44b4083d8f43d02ee23b2ba9f9a5d2c8d812b609/src/images/FreeTube4.png</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.0">
@@ -47,6 +47,9 @@
     <content_attribute id="social-contacts">intense</content_attribute>
   </content_rating>
   <releases>
+    <release version="0.6.0 Beta" date="2019-01-01">
+      <url>https://freetube.writeas.com/freetube-release-0-6-0-beta-1080p-and-a-lot-of-qol</url>
+    </release>
     <release version="0.5.3 Beta" date="2019-01-01">
       <url>https://write.as/freetube/freetube-release-0-5-3-beta-hotfix</url>
     </release>

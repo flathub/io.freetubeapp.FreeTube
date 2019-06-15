@@ -41,15 +41,17 @@
                 "append-path": "/usr/lib/sdk/node10/bin",
                 "env": {
                     /* Need this for electron-download to find the cached electron binary */
-                    "electron_config_cache": "/run/build/freetube/npm-cache"
+                    "ELECTRON_CACHE": "/run/build/electron-quick-start/flatpak-node/electron-cache",
+                    "electron_config_cache": "/run/build/freetube/npm-cache",
+                    "npm_config_nodedir": "/usr/lib/sdk/node10"
                 }
             },
             "buildsystem": "simple",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/FreeTubeApp/FreeTube/archive/v0.5.3-beta.tar.gz",
-                    "sha256": "87051ca3ed0b7000b7f2bdc12d7514bd3eb3b074e1cb9423a2bb0daba6ed76ca",
+                    "url": "https://github.com/FreeTubeApp/FreeTube/archive/v0.6.0-beta.tar.gz",
+                    "sha256": "090151b4aab94fe94a95bb76872f0c299998906894d4c25dbb137365701e7f93",
                     "dest": "main"
                 },
                 {
@@ -61,7 +63,7 @@
                 {
                     "type": "script",
                     "dest-filename": "run.sh",
-                    "commands": [ "PATH=\"$PATH:/app/node/bin\" TMPDIR=\"$XDG_RUNTIME_DIR/app/io.freetubeapp.FreeTube\" exec /app/main/node_modules/.bin/electron /app/main \"\" \"$@\"" ]
+                    "commands": [ "PATH=\"$PATH:/app/node/bin\" TMPDIR=\"$XDG_RUNTIME_DIR/app/io.freetubeapp.FreeTube\" exec /app/main/node_modules/.bin/electron /app/main --no-sandbox \"\" \"$@\"" ]
                 },
                 {
                     "type": "file",
