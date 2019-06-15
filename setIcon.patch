@@ -1,7 +1,7 @@
 diff --git a/src/js/init.js b/src/js/init.js
 index 895348b..acb74b8 100644
---- a/main/src/js/init.js
-+++ b/main/src/js/init.js
+--- a/src/js/init.js
++++ b/src/js/init.js
 @@ -25,7 +25,8 @@ const {
      BrowserWindow,
      dialog,

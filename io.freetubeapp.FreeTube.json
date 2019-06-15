@@ -29,20 +29,12 @@
     },
     "modules": [
         {
-            "name": "nodejs",
-            "buildsystem": "simple",
-            "build-commands": [
-                "/usr/lib/sdk/node10/install.sh"
-            ]
-        },
-        {
             "name": "freetube",
             "build-options" : {
                 "append-path": "/usr/lib/sdk/node10/bin",
                 "env": {
                     /* Need this for electron-download to find the cached electron binary */
-                    "ELECTRON_CACHE": "/run/build/electron-quick-start/flatpak-node/electron-cache",
-                    "electron_config_cache": "/run/build/freetube/npm-cache",
+                    "ELECTRON_CACHE": "/run/build/freetube/flatpak-node/electron-cache",
                     "npm_config_nodedir": "/usr/lib/sdk/node10"
                 }
             },
@@ -51,8 +43,7 @@
                 {
                     "type": "archive",
                     "url": "https://github.com/FreeTubeApp/FreeTube/archive/v0.6.0-beta.tar.gz",
-                    "sha256": "090151b4aab94fe94a95bb76872f0c299998906894d4c25dbb137365701e7f93",
-                    "dest": "main"
+                    "sha256": "090151b4aab94fe94a95bb76872f0c299998906894d4c25dbb137365701e7f93"
                 },
                 {
                     "type": "patch",
@@ -63,7 +54,7 @@
                 {
                     "type": "script",
                     "dest-filename": "run.sh",
-                    "commands": [ "PATH=\"$PATH:/app/node/bin\" TMPDIR=\"$XDG_RUNTIME_DIR/app/io.freetubeapp.FreeTube\" exec /app/main/node_modules/.bin/electron /app/main --no-sandbox \"\" \"$@\"" ]
+                    "commands": [ "TMPDIR=\"$XDG_RUNTIME_DIR/app/io.freetubeapp.FreeTube\" exec /app/main/freetube --no-sandbox \"\" \"$@\"" ]
                 },
                 {
                     "type": "file",
@@ -76,14 +67,14 @@
             ],
             "build-commands": [
                 /* Install npm dependencies */
-                "npm install --prefix=main --offline --cache=/run/build/freetube/npm-cache/",
+                "npm install --offline --cache=$FLATPAK_BUILDER_BUILDDIR/flatpak-node/npm-cache",
                 /* Bundle app and dependencies */
-                "mkdir -p /app/main /app/bin",
-                "cp -ra main/* /app/main/",
+                "if [ -d /lib/arm-linux-gnueabihf ]; then npx build --dir --armv7l; else npm run pack; fi",
+                "cp -r dist/linux-*unpacked /app/main",
                 /* Install app wrapper */
                 "install run.sh /app/bin/",
                 /* Install app icon and desktop file */
-                "install -Dm644 main/src/icons/iconColor.png /app/share/icons/hicolor/256x256/apps/io.freetubeapp.FreeTube.png",
+                "install -Dm644 src/icons/iconColor.png /app/share/icons/hicolor/256x256/apps/io.freetubeapp.FreeTube.png",
                 "install -Dm644 io.freetubeapp.FreeTube.desktop -t /app/share/applications/",
                 "install -Dm644 io.freetubeapp.FreeTube.appdata.xml -t /app/share/metainfo/"
             ]
