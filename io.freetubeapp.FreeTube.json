@@ -54,7 +54,16 @@
                 {
                     "type": "script",
                     "dest-filename": "run.sh",
-                    "commands": [ "TMPDIR=\"$XDG_RUNTIME_DIR/app/io.freetubeapp.FreeTube\" exec /app/main/freetube --no-sandbox \"\" \"$@\"" ]
+                    "commands": [
+                        "if [ -d \"$XDG_CONFIG_HOME\"/Electron ]; then \\",
+                            "if [ -d \"$XDG_CONFIG_HOME\"/FreeTube ]; then \\",
+                                "TMP=$(mktemp -u \"$XDG_CONFIG_HOME\"/FreeTube.bakXXX) || exit 1",
+                                "mv \"$XDG_CONFIG_HOME\"/FreeTube \"$TMP\" || exit 1",
+                            "fi",
+                            "mv \"$XDG_CONFIG_HOME\"/Electron \"$XDG_CONFIG_HOME\"/FreeTube",
+                        "fi",
+                        "TMPDIR=\"$XDG_RUNTIME_DIR/app/io.freetubeapp.FreeTube\" exec /app/main/freetube --no-sandbox \"\" \"$@\""
+                    ]
                 },
                 {
                     "type": "file",
