@@ -47,6 +47,9 @@
     <content_attribute id="social-contacts">intense</content_attribute>
   </content_rating>
   <releases>
+    <release version="0.7.0 Beta" date="2019-08-16">
+      <url>https://freetube.writeas.com/freetube-release-0-7-0-beta-local-profiles-new-channel-view-invidious-proxy</url>
+    </release>
     <release version="0.6.1 Beta" date="2019-07-09">
       <url>https://freetube.writeas.com/freetube-release-0-6-1-beta-dash-hotfix-grid-view-new-settings</url>
     </release>
