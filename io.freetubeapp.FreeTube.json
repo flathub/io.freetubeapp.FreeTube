@@ -74,7 +74,7 @@
                 /* Install npm dependencies */
                 "npm install --offline --cache=$FLATPAK_BUILDER_BUILDDIR/flatpak-node/npm-cache",
                 /* Bundle app and dependencies */
-                "if [ -d /lib/arm-linux-gnueabihf ]; then npx build --dir --armv7l; else npm run pack; fi",
+                "if [ -d /lib/arm-linux-gnueabihf ]; then npx electron-builder build --dir --armv7l; else npm run pack; fi",
                 "cp -r dist/linux-*unpacked /app/main",
                 /* Install app wrapper */
                 "install run.sh /app/bin/",
