@@ -1,0 +1,66 @@
+app-id: io.freetubeapp.FreeTube
+runtime: org.freedesktop.Platform
+runtime-version: '19.08'
+branch: stable
+sdk: org.freedesktop.Sdk
+base: org.electronjs.Electron2.BaseApp
+base-version: '19.08'
+sdk-extensions:
+  - org.freedesktop.Sdk.Extension.node10
+command: run.sh
+separate-locales: false
+finish-args:
+  - --device=dri
+  - --share=ipc
+  - --socket=x11
+  - --socket=pulseaudio
+  - --share=network
+  - --env=TZ=UTC
+  - --filesystem=xdg-download
+build-options:
+  cflags: -O2 -g
+  cxxflags: -O2 -g
+  env:
+    NPM_CONFIG_LOGLEVEL: info
+modules:
+  - name: freetube
+    build-options:
+      append-path: /usr/lib/sdk/node10/bin
+      env:
+        # Need this for electron-download to find the cached electron binary
+        ELECTRON_CACHE: /run/build/freetube/flatpak-node/electron-cache
+        npm_config_nodedir: /usr/lib/sdk/node10
+    buildsystem: simple
+    sources:
+      - type: archive
+        url: https://github.com/FreeTubeApp/FreeTube/archive/v0.7.2-beta.tar.gz
+        sha256: 73a74a4a3c1b4fad057843203d67319280fe88de537f91299e49d1a46c1b2b61
+      - generated-sources.json
+      # Wrapper to launch the app
+      - type: script
+        dest-filename: run.sh
+        commands:
+          - if [ -d "$XDG_CONFIG_HOME"/Electron ]; then \
+          - if [ -d "$XDG_CONFIG_HOME"/FreeTube ]; then \
+          - TMP=$(mktemp -u "$XDG_CONFIG_HOME"/FreeTube.bakXXX) || exit 1
+          - mv "$XDG_CONFIG_HOME"/FreeTube "$TMP" || exit 1
+          - fi
+          - mv "$XDG_CONFIG_HOME"/Electron "$XDG_CONFIG_HOME"/FreeTube
+          - fi
+          - TMPDIR="$XDG_RUNTIME_DIR/app/io.freetubeapp.FreeTube" exec /app/main/freetube --no-sandbox "" "$@"
+      - type: file
+        path: io.freetubeapp.FreeTube.desktop
+      - type: file
+        path: io.freetubeapp.FreeTube.appdata.xml
+    build-commands:
+      # Install npm dependencies
+      - npm install --offline --cache=$FLATPAK_BUILDER_BUILDDIR/flatpak-node/npm-cache
+      # Bundle app and dependencies
+      - if [ `node -e 'console.log(process.arch)'` = arm ]; then npx electron-builder build --dir --armv7l; else npm run pack; fi
+      - cp -r dist/linux-*unpacked /app/main
+      # Install app wrapper
+      - install run.sh /app/bin/
+      # Install app icon and desktop file
+      - install -Dm644 src/icons/iconColor.png /app/share/icons/hicolor/256x256/apps/io.freetubeapp.FreeTube.png
+      - install -Dm644 io.freetubeapp.FreeTube.desktop -t /app/share/applications/
+      - install -Dm644 io.freetubeapp.FreeTube.appdata.xml -t /app/share/metainfo/
