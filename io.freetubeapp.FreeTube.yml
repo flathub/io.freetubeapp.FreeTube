@@ -18,8 +18,6 @@ finish-args:
   - --env=TZ=UTC
   - --filesystem=xdg-download
 build-options:
-  cflags: -O2 -g
-  cxxflags: -O2 -g
   env:
     NPM_CONFIG_LOGLEVEL: info
 modules:
@@ -47,7 +45,8 @@ modules:
           - fi
           - mv "$XDG_CONFIG_HOME"/Electron "$XDG_CONFIG_HOME"/FreeTube
           - fi
-          - TMPDIR="$XDG_RUNTIME_DIR/app/io.freetubeapp.FreeTube" exec /app/main/freetube --no-sandbox "" "$@"
+          - export TMPDIR="$XDG_RUNTIME_DIR/app/$FLATPAK_ID"
+          - exec zypak-wrapper /app/main/freetube "$@"
       - type: file
         path: io.freetubeapp.FreeTube.desktop
       - type: file
