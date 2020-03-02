@@ -6,7 +6,7 @@ sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
 base-version: '19.08'
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node10
+  - org.freedesktop.Sdk.Extension.node12
 command: run.sh
 separate-locales: false
 finish-args:
@@ -17,17 +17,13 @@ finish-args:
   - --share=network
   - --env=TZ=UTC
   - --filesystem=xdg-download
-build-options:
-  env:
-    NPM_CONFIG_LOGLEVEL: info
 modules:
   - name: freetube
     build-options:
-      append-path: /usr/lib/sdk/node10/bin
+      append-path: /usr/lib/sdk/node12/bin
       env:
         # Need this for electron-download to find the cached electron binary
         ELECTRON_CACHE: /run/build/freetube/flatpak-node/electron-cache
-        npm_config_nodedir: /usr/lib/sdk/node12
     buildsystem: simple
     sources:
       - type: archive
