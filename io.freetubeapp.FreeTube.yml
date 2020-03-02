@@ -27,7 +27,7 @@ modules:
       env:
         # Need this for electron-download to find the cached electron binary
         ELECTRON_CACHE: /run/build/freetube/flatpak-node/electron-cache
-        npm_config_nodedir: /usr/lib/sdk/node10
+        npm_config_nodedir: /usr/lib/sdk/node12
     buildsystem: simple
     sources:
       - type: archive
