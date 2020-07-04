@@ -47,6 +47,9 @@
     <content_attribute id="social-contacts">intense</content_attribute>
   </content_rating>
   <releases>
+    <release version="0.7.3 Beta" date="2020-06-28">
+      <url>https://write.as/freetube/freetube-release-0-7-3-beta-video-bug-fixes</url>
+    </release>
     <release version="0.7.2 Beta" date="2019-12-21">
       <url>https://write.as/freetube/freetube-release-0-7-2-beta-and-the-state-of-freetube</url>
     </release>

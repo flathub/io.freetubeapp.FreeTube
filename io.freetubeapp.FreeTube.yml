@@ -27,8 +27,8 @@ modules:
     buildsystem: simple
     sources:
       - type: archive
-        url: https://github.com/FreeTubeApp/FreeTube/archive/v0.7.2-beta.tar.gz
-        sha256: 73a74a4a3c1b4fad057843203d67319280fe88de537f91299e49d1a46c1b2b61
+        url: https://github.com/FreeTubeApp/FreeTube/archive/v0.7.3-beta.tar.gz
+        sha256: 1ad0f313ec627056d9d250344adf71a2b6f1a3ec28079505ad57037d770433f0
       - generated-sources.json
       # Wrapper to launch the app
       - type: script
