@@ -1,10 +1,10 @@
 app-id: io.freetubeapp.FreeTube
 runtime: org.freedesktop.Platform
-runtime-version: '19.08'
+runtime-version: '20.08'
 branch: stable
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '19.08'
+base-version: '20.08'
 command: run.sh
 separate-locales: false
 finish-args:
@@ -42,7 +42,7 @@ modules:
       - type: file
         path: io.freetubeapp.FreeTube.desktop
       - type: file
-        path: io.freetubeapp.FreeTube.appdata.xml
+        path: io.freetubeapp.FreeTube.metainfo.xml
     build-commands:
       # Bundle app
       - unzip freetube-*.zip -d /app/freetube
