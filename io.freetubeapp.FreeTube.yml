@@ -51,4 +51,4 @@ modules:
       # Install app icon and desktop file
       - install -Dm644 iconColor.png /app/share/icons/hicolor/256x256/apps/io.freetubeapp.FreeTube.png
       - install -Dm644 io.freetubeapp.FreeTube.desktop -t /app/share/applications/
-      - install -Dm644 io.freetubeapp.FreeTube.appdata.xml -t /app/share/metainfo/
+      - install -Dm644 io.freetubeapp.FreeTube.metainfo.xml -t /app/share/metainfo/
