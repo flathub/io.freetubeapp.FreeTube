@@ -28,11 +28,11 @@ modules:
         only-arches:
           - aarch64
         url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.9.2-beta/freetube_0.9.2_linux_portable_arm64.zip
-        sha256: 2ed88a2a76eb26e5290971d0ff6fdb2032d2c04f61b9bc70589a49bedae87a96
+        sha256: 2e48f9ff300fa0a51c02fce384c2cf44e128b759b1726e2beebc8c6401cfebdf
       # Icon
       - type: file
         url: https://github.com/FreeTubeApp/FreeTube/raw/823a27899d32e064414ebba505936e86cada756e/_icons/iconColor.png
-        sha256: 00d2002dd576bea1dd8e68eb5bd820a292b08e2f675f07cf249b938f6a9cf3b0
+        sha256: 0bddbf0feea77420fb94dd31d0be7ada932f8040623264b348ac383d78db0a4a
       # Wrapper to launch the app
       - type: script
         dest-filename: run.sh
