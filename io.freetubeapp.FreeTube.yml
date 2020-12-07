@@ -22,13 +22,13 @@ modules:
       - type: archive
         only-arches:
           - x86_64
-        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.9.2-beta/freetube_0.9.2_linux_portable_x64.zip
-        sha256: 2e48f9ff300fa0a51c02fce384c2cf44e128b759b1726e2beebc8c6401cfebdf
+        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.9.3-beta/freetube_0.9.3_linux_portable_x64.zip
+        sha256: 7b57ed710ba4da2255607bb0edb3734b991e8f436b819fb957a69e6574fbc3c2
       - type: archive
         only-arches:
           - aarch64
-        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.9.2-beta/freetube_0.9.2_linux_portable_arm64.zip
-        sha256: 0bddbf0feea77420fb94dd31d0be7ada932f8040623264b348ac383d78db0a4a
+        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.9.3-beta/freetube_0.9.3_linux_portable_arm64.zip
+        sha256: 67a9ad343bf5410ca89a6774070e69eb6801feed3b223949639496276dc90997
       # Icon
       - type: file
         url: https://github.com/FreeTubeApp/FreeTube/raw/823a27899d32e064414ebba505936e86cada756e/_icons/iconColor.png
@@ -45,7 +45,7 @@ modules:
         path: io.freetubeapp.FreeTube.metainfo.xml
     build-commands:
       # Bundle app
-      - unzip freetube-*.zip -d /app/freetube
+      - install freetube_*.zip -d /app/freetube
       # Install app wrapper
       - install run.sh /app/bin/
       # Install app icon and desktop file
