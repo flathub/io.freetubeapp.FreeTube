@@ -45,7 +45,7 @@ modules:
         path: io.freetubeapp.FreeTube.metainfo.xml
     build-commands:
       # Bundle app
-      - install freetube-*.zip /app/freetube
+      - unzip freetube-*.zip -d /app/freetube
       # Install app wrapper
       - install run.sh /app/bin/
       # Install app icon and desktop file
