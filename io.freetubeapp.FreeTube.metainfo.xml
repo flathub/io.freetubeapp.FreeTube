@@ -9,7 +9,6 @@
     mind. Use YouTube without advertisements and prevent Google from tracking
     you with their cookies and JavaScript. Available for Windows, Mac &amp;
     Linux thanks to Electron.</p>
-
     <p>Please note that FreeTube is currently in Beta. While it should work well
     for most users, there are still bugs and missing features that need to be
     addressed.</p>
@@ -47,6 +46,9 @@
     <content_attribute id="social-contacts">intense</content_attribute>
   </content_rating>
   <releases>
+    <release version="0.10.0 Beta" date="2020-12-18">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.10.0-beta</url>
+    </release>
     <release version="0.9.3 Beta" date="2020-12-07">
       <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.9.3-beta</url>
     </release>
