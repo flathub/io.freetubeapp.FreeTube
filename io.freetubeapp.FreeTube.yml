@@ -12,10 +12,11 @@ finish-args:
   - --share=ipc
   - --socket=x11
   - --socket=pulseaudio
+  - --socket=session-bus
   - --share=network
   - --env=TZ=UTC
   - --filesystem=xdg-download
-  - --own-name=org.mpris.MediaPlayer2.FreeTube
+  - --own-name=org.mpris.MediaPlayer2.freetube
 modules:
   - name: freetube
     buildsystem: simple
