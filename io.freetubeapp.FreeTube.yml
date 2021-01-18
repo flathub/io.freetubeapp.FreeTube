@@ -24,7 +24,7 @@ modules:
       - type: file
         only-arches:
           - x86_64
-         url: https://github.com/PrestonN/FreeTube/releases/download/v0.11.2-beta/freetube-0.11.2.zip
+        url: https://github.com/PrestonN/FreeTube/releases/download/v0.11.2-beta/freetube-0.11.2.zip
         sha256: 0c8320a66431197d23aeef74aff069999b9f735f2d31d0258b4d59d1b95b2031
       - type: file
         only-arches:
