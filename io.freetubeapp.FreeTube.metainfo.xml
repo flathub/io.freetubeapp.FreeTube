@@ -46,6 +46,9 @@
     <content_attribute id="social-contacts">intense</content_attribute>
   </content_rating>
   <releases>
+    <release version="0.11.2 Beta" date="2021-01-18">
+      <url>https://github.com/PrestonN/FreeTube/releases/tag/v0.11.2-beta</url>
+    </release>
     <release version="0.11.1 Beta" date="2021-01-15">
       <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.11.1-beta</url>
     </release>
