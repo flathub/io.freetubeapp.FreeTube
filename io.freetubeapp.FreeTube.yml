@@ -24,7 +24,7 @@ modules:
       - type: file
         only-arches:
           - x86_64
-         url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.10.0-beta/freetube-0.10.0-linux-portable-x64.zip
+         url: https://github.com/PrestonN/FreeTube/releases/download/v0.11.2-beta/freetube-0.11.2.zip
         sha256: 01219fa8e012eb1d03119db6967a1a7fc6a5865fc03547b1a2191003689a5d18
       - type: file
         only-arches:
