@@ -33,8 +33,8 @@ modules:
         sha256: 66411d64ee71a74419dbe3e85a869e0c830b37ebcf60eef909c28c7818343f68
       # Icon
       - type: file
-        url: https://github.com/FreeTubeApp/FreeTube/raw/823a27899d32e064414ebba505936e86cada756e/_icons/iconColor.png
-        sha256: 00d2002dd576bea1dd8e68eb5bd820a292b08e2f675f07cf249b938f6a9cf3b0
+        url: https://raw.githubusercontent.com/FreeTubeApp/FreeTube/master/_icons/icon.svg
+        sha256: a4ca2007a3e21d776095ab54c9de0811a53cc3adb9a0219629baa1198ca4ffb4
       # Wrapper to launch the app
       - type: script
         dest-filename: run.sh
@@ -51,6 +51,6 @@ modules:
       # Install app wrapper
       - install run.sh /app/bin/
       # Install app icon and desktop file
-      - install -Dm644 iconColor.png /app/share/icons/hicolor/256x256/apps/io.freetubeapp.FreeTube.png
+      - install -Dm644 icon.svg /app/share/icons/hicolor/256x256/apps/io.freetubeapp.FreeTube.svg
       - install -Dm644 io.freetubeapp.FreeTube.desktop -t /app/share/applications/
       - install -Dm644 io.freetubeapp.FreeTube.metainfo.xml -t /app/share/metainfo/
