@@ -20,6 +20,7 @@
   </categories>
   <url type="homepage">https://freetubeapp.io/</url>
   <url type="bugtracker">https://github.com/FreeTubeApp/FreeTube/issues</url>
+  <url type="documentation">https://docs.freetubeapp.io/</url>
   <project_license>AGPL-3.0+</project_license>
   <developer_name>Preston</developer_name>
   <screenshots>
