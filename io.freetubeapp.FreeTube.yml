@@ -16,6 +16,7 @@ finish-args:
   - --share=network
   - --env=TZ=UTC
   - --filesystem=xdg-download
+  - --persist=.config/FreeTube-Vue
   - --own-name=org.mpris.MediaPlayer2.freetube
 modules:
   - name: freetube
