@@ -28,6 +28,11 @@ modules:
         sha256: 75e97bd8f961ffe4e2200c858c891355eaa67f2c351cb471054b6d61123cd211
       - type: file
         only-arches:
+          - arm
+        url: null
+        sha256: null
+        - type: file
+        only-arches:
           - aarch64
         url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.16.0-beta/freetube-0.16.0-linux-portable-arm64.zip
         sha256: 42aa5f8619b10b6e7483026522af08483252fc80a140b8feb33cef51ccca4644
