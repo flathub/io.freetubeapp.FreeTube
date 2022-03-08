@@ -7,6 +7,7 @@ base: org.electronjs.Electron2.BaseApp
 base-version: '21.08'
 command: run.sh
 separate-locales: false
+skip-arches: arm
 finish-args:
   - --device=dri
   - --share=ipc
