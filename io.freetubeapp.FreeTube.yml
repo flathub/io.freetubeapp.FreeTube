@@ -29,8 +29,8 @@ modules:
       - type: file
         only-arches:
           - arm
-        url: null
-        sha256: null
+        url: skip
+        sha256: skip
         - type: file
         only-arches:
           - aarch64
