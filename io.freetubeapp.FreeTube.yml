@@ -7,7 +7,6 @@ base: org.electronjs.Electron2.BaseApp
 base-version: '21.08'
 command: run.sh
 separate-locales: false
-skip-arches: arm
 finish-args:
   - --device=dri
   - --share=ipc
@@ -30,8 +29,8 @@ modules:
       - type: file
         only-arches:
           - arm
-        url: skip
-        sha256: skip
+        url: https://github.com/Jai-JAP/freetube-armhf-builds/releases/download/v0.16.0-beta/freetube-0.16.0-armv7l.zip
+        sha256: 46889e713a2dac95d5dddb66295d6e126a2f7720b06dac432b830e1887f13931
         - type: file
         only-arches:
           - aarch64
