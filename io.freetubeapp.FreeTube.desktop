@@ -8,4 +8,4 @@ Type=Application
 StartupNotify=true
 StartupWMClass=FreeTube
 Categories=GNOME;GTK;Utility;
-MimeType=x-scheme-handler/freetube;
+MimeType=x-scheme-handler/freetube;text/html;text/xml;application/xhtml+xml;text/mml;x-scheme-handler/http;x-scheme-handler/https;
