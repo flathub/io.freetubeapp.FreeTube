@@ -12,11 +12,15 @@ finish-args:
   - --share=ipc
   - --socket=x11
   - --socket=pulseaudio
-  - --socket=session-bus
   - --share=network
   - --env=TZ=UTC
   - --filesystem=xdg-download
+  - --own-name=org.mpris.MediaPlayer2.chromium.*
   - --own-name=org.mpris.MediaPlayer2.freetube
+  - --talk-name=org.freedesktop.PowerManagement
+  - --talk-name=org.freedesktop.ScreenSaver
+  - --talk-name=org.gnome.SessionManager
+  - --talk-name=org.gnome.SettingsDaemon
 modules:
   - name: freetube
     buildsystem: simple
