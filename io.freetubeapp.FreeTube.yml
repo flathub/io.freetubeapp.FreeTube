@@ -21,6 +21,7 @@ finish-args:
   - --talk-name=org.freedesktop.ScreenSaver
   - --talk-name=org.gnome.SessionManager
   - --talk-name=org.gnome.SettingsDaemon
+  - --talk-name=org.freedesktop.Flatpak
 modules:
   - name: freetube
     buildsystem: simple
