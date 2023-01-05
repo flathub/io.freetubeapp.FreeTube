@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=FreeTube
-Comment=An Open Source YouTube app for privacy.
+Comment=Открытый проигрыватель ютуба, созданный с учётом скрытности.
 GenericName=FreeTube
 Exec=/app/bin/run.sh %u
 Icon=io.freetubeapp.FreeTube
