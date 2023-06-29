@@ -1,5 +1,7 @@
 [Desktop Entry]
+Name[ar]=فري تيوب
 Name=FreeTube
+Comment[ar]=تطبيق لموقع YouTube مفتوح المصدر مع خصوصية معززة.
 Comment=An Open Source YouTube app for privacy.
 GenericName=FreeTube
 Exec=/app/bin/run.sh %u
