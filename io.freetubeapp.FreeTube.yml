@@ -1,10 +1,10 @@
 app-id: io.freetubeapp.FreeTube
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '22.08'
 branch: stable
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '21.08'
+base-version: '22.08'
 command: run.sh
 separate-locales: false
 finish-args:
@@ -27,13 +27,13 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.17.1-beta/freetube-0.17.1-linux-portable-x64.zip
-        sha256: 9663e3fad281b827d60fa0af99f2334944da2280f3adc8f1de0a23752b28952f
+        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.19.0-beta/freetube-0.19.0-linux-portable-x64.zip
+        sha256: 743e859e18960e79f36c66e037a6bdda0c358ee3f792cd4e13defdd2728f3258
       - type: file
         only-arches:
           - aarch64
-        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.17.1-beta/freetube-0.17.1-linux-portable-arm64.zip
-        sha256: 1b7bf5f7d4b211b150f80b645873786c3629c96e43442f8a859898341712b88f
+        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.19.0-beta/freetube-0.19.0-linux-portable-arm64.zip
+        sha256: e02ef788fc4819c1181b10a7b8b1f1b874fe37bd785b5c73b40b2e4620c72e64
       # Icon
       - type: file
         url: https://raw.githubusercontent.com/FreeTubeApp/FreeTube/master/_icons/icon.svg
@@ -54,6 +54,6 @@ modules:
       # Install app wrapper
       - install run.sh /app/bin/
       # Install app icon and desktop file
-      - install -Dm644 icon.svg /app/share/icons/hicolor/256x256/apps/io.freetubeapp.FreeTube.svg
+      - install -Dm644 icon.svg /app/share/icons/hicolor/scalable/apps/io.freetubeapp.FreeTube.svg
       - install -Dm644 io.freetubeapp.FreeTube.desktop -t /app/share/applications/
       - install -Dm644 io.freetubeapp.FreeTube.metainfo.xml -t /app/share/metainfo/
