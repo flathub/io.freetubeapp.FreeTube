@@ -44,7 +44,7 @@ modules:
         dest-filename: run.sh
         commands:
           - export TMPDIR="$XDG_RUNTIME_DIR/app/$FLATPAK_ID"
-          - exec zypak-wrapper /app/freetube/freetube --enable-features=UseOzonePlatform --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations "$@"
+          - exec zypak-wrapper /app/freetube/freetube --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations "$@"
       - type: file
         path: io.freetubeapp.FreeTube.desktop
       - type: file
