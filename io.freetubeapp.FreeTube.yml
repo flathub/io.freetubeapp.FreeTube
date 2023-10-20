@@ -11,6 +11,8 @@ finish-args:
   - --device=dri
   - --share=ipc
   - --socket=x11
+  - --socket=wayland
+  - --socket=fallback-x11
   - --socket=pulseaudio
   - --share=network
   - --filesystem=xdg-download
@@ -43,7 +45,12 @@ modules:
         dest-filename: run.sh
         commands:
           - export TMPDIR="$XDG_RUNTIME_DIR/app/$FLATPAK_ID"
-          - exec zypak-wrapper /app/freetube/freetube "$@"
+          - if [ -e $XDG_RUNTIME_DIR/${WAYLAND_DISPLAY:=wayland-0} ]; then,
+          - wayland_check="--enable-features=UseOzonePlatform --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations",
+          - else,
+          - wayland_check="",
+          - fi,
+          - exec zypak-wrapper /app/freetube/freetube $wayland_check "$@"
       - type: file
         path: io.freetubeapp.FreeTube.desktop
       - type: file
