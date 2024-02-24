@@ -49,6 +49,9 @@
     <content_attribute id="social-contacts">intense</content_attribute>
   </content_rating>
   <releases>
+    <release version="0.19.2 Beta" date="2024-02-24">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.19.2-beta</url>
+    </release>
     <release version="0.19.1 Beta" date="2023-10-09">
       <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.19.1-beta</url>
     </release>
