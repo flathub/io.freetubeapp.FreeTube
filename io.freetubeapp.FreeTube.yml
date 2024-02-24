@@ -11,6 +11,7 @@ finish-args:
   - --device=dri
   - --share=ipc
   - --socket=x11
+  - --socket=wayland
   - --socket=pulseaudio
   - --share=network
   - --filesystem=xdg-download
@@ -39,11 +40,8 @@ modules:
         url: https://raw.githubusercontent.com/FreeTubeApp/FreeTube/master/_icons/icon.svg
         sha256: a4ca2007a3e21d776095ab54c9de0811a53cc3adb9a0219629baa1198ca4ffb4
       # Wrapper to launch the app
-      - type: script
-        dest-filename: run.sh
-        commands:
-          - export TMPDIR="$XDG_RUNTIME_DIR/app/$FLATPAK_ID"
-          - exec zypak-wrapper /app/freetube/freetube "$@"
+      - type: file
+        path: run.sh
       - type: file
         path: io.freetubeapp.FreeTube.desktop
       - type: file
