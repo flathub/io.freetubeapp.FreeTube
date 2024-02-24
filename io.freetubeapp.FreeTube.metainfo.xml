@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<application>
+<component type="desktop-application">
   <id type="desktop-application">io.freetubeapp.FreeTube</id>
   <metadata_license>CC0-1.0</metadata_license>
   <name>FreeTube</name>
@@ -49,6 +49,9 @@
     <content_attribute id="social-contacts">intense</content_attribute>
   </content_rating>
   <releases>
+    <release version="0.19.2 Beta" date="2024-02-24">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.19.2-beta</url>
+    </release>
     <release version="0.19.1 Beta" date="2023-10-09">
       <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.19.1-beta</url>
     </release>
@@ -137,4 +140,4 @@
       <url>https://write.as/freetube/freetube-release-0-5-3-beta-hotfix</url>
     </release>
   </releases>
-</application>
+</component>
