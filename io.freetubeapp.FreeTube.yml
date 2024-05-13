@@ -10,7 +10,8 @@ separate-locales: false
 finish-args:
   - --device=dri
   - --share=ipc
-  - --socket=x11
+  - --socket=wayland
+  - --socket=fallback-x11
   - --socket=pulseaudio
   - --share=network
   - --filesystem=xdg-download
@@ -20,6 +21,7 @@ finish-args:
   - --talk-name=org.freedesktop.ScreenSaver
   - --talk-name=org.gnome.SessionManager
   - --talk-name=org.gnome.SettingsDaemon
+  - --env=ELECTRON_OZONE_PLATFORM_HINT=auto
 modules:
   - name: freetube
     buildsystem: simple
