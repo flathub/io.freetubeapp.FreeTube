@@ -27,13 +27,13 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.20.0-beta/freetube-0.20.0-linux-portable-x64.zip
-        sha256: 3520c30ac780a73e027f35df1ab3e00207df65726d4c4e3b3c99c6b141f866cf
+        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.21.0-beta/freetube-0.21.0-linux-portable-x64.zip
+        sha256: 9475e5e619f7e869a968b201e435499a3d6752d1aeacd3e11bd29173de1c43c9
       - type: file
         only-arches:
           - aarch64
-        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.20.0-beta/freetube-0.20.0-linux-portable-arm64.zip
-        sha256: 1dc291e5bc78fa74da6ddb2abf7eea15795a65472ec2d2d950fe95624add4ea8
+        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.21.0-beta/freetube-0.21.0-linux-portable-arm64.zip
+        sha256: ed89d536ec1eceecf340b15f9333b019852c538a1aff77e203e97a1d4636fbd6
       # Icon
       - type: file
         url: https://raw.githubusercontent.com/FreeTubeApp/FreeTube/master/_icons/icon.svg
