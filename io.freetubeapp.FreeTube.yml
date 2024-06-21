@@ -37,7 +37,7 @@ modules:
       # Icon
       - type: file
         url: https://raw.githubusercontent.com/FreeTubeApp/FreeTube/master/_icons/icon.svg
-        sha256: a4ca2007a3e21d776095ab54c9de0811a53cc3adb9a0219629baa1198ca4ffb4
+        sha256: 26c9c74d6684655170d579794886e146cb71faf21cae343393d487600ce318f1
       # Wrapper to launch the app
       - type: file
         path: run.sh
