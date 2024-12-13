@@ -7,6 +7,8 @@ if [ "${XDG_SESSION_TYPE}" = "wayland" ] && [ -e "${XDG_RUNTIME_DIR}/${WAYLAND_D
     EXTRA_FLAGS+=(
         "--enable-features=WaylandWindowDecorations"
         "--ozone-platform-hint=auto"
+        "--enable-wayland-ime"
+        "--wayland-text-input-version=3"
     )
 fi
 
