@@ -22,7 +22,6 @@
   <url type="bugtracker">https://github.com/FreeTubeApp/FreeTube/issues</url>
   <url type="help">https://docs.freetubeapp.io/</url>
   <url type="translate">https://hosted.weblate.org/engage/free-tube/</url>
-  <url type="donation">https://liberapay.com/FreeTube</url>
   <project_license>AGPL-3.0+</project_license>
   <developer_name>Preston</developer_name>
   <screenshots>
