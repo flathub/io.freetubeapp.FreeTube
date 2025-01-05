@@ -3,16 +3,36 @@
   <id type="desktop-application">io.freetubeapp.FreeTube</id>
   <metadata_license>CC0-1.0</metadata_license>
   <name>FreeTube</name>
-  <summary>An Open Source YouTube app for privacy</summary>
+
+  <summary>An open-source YouTube app for privacy</summary>
+  <summary xml:lang="hu">Nyílt forráskódú YouTube-alkalmazás az adatvédelem érdekében</summary>
+
   <description>
-    <p>FreeTube is an open source desktop YouTube player built with privacy in
-    mind. Use YouTube without advertisements and prevent Google from tracking
-    you with their cookies and JavaScript. Available for Windows, Mac &amp;
-    Linux thanks to Electron.</p>
-    <p>Please note that FreeTube is currently in Beta. While it should work well
-    for most users, there are still bugs and missing features that need to be
-    addressed.</p>
+    <p>
+      FreeTube is an open-source desktop YouTube player built with privacy in
+      mind. Use YouTube without advertisements and prevent Google from tracking
+      you with their cookies and JavaScript. Available for GNU/Linux, macOS, and
+      Windows thanks to Electron.
+    </p>
+    <p>
+      Please note that FreeTube is currently in Beta. While it should work well
+      for most users, there are still bugs and missing features that need to be
+      addressed.
+    </p>
+    <p xml:lang="hu">
+      A FreeTube egy nyílt forráskódú asztali YouTube-lejátszó, amely a magánélet
+      védelmét szem előtt tartva készült. Használja a YouTube-ot hirdetések nélkül,
+      és akadályozza meg, hogy a Google nyomon kövesse Önt a cookie-jaival és a
+      JavaScripttel. Elérhető GNU/Linux, macOS és Windows rendszerekhez az
+      Electronnak köszönhetően.
+    </p>
+    <p xml:lang="hu">
+      Felhívjuk figyelmét, hogy a FreeTube jelenleg bétaverzióban van. Bár a
+      legtöbb felhasználó számára jól kell működnie, még mindig vannak hibák és
+      hiányzó funkciók, amelyeket orvosolni kell.
+    </p>
   </description>
+
   <launchable type="desktop-id">io.freetubeapp.FreeTube.desktop</launchable>
   <categories>
     <category>AudioVideo</category>
@@ -27,20 +47,24 @@
   <developer_name>Preston</developer_name>
   <screenshots>
     <screenshot type="default">
-      <caption>The main FreeTube window</caption>
       <image type="source" width="1920" height="1016">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube1.png</image>
+      <caption>The main FreeTube window</caption>
+      <caption xml:lang="hu">A FreeTube fő ablaka</caption>
     </screenshot>
     <screenshot>
-      <caption>Watching a video</caption>
       <image type="source" width="1920" height="1017">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube2.png</image>
+      <caption>Watching a video</caption>
+      <caption xml:lang="hu">Videó megtekintése</caption>
     </screenshot>
     <screenshot>
-      <caption>Settings</caption>
       <image type="source" width="1567" height="1079">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube3.png</image>
+      <caption>Settings</caption>
+      <caption xml:lang="hu">Beállítások</caption>
     </screenshot>
     <screenshot>
-      <caption>Dark theme</caption>
       <image type="source" width="1920" height="1013">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube4.png</image>
+      <caption>Dark theme</caption>
+      <caption xml:lang="hu">Sötét téma</caption>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.0">
