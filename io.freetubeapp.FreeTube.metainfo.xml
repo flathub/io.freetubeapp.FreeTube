@@ -48,6 +48,15 @@
     <content_attribute id="social-audio">moderate</content_attribute>
     <content_attribute id="social-contacts">intense</content_attribute>
   </content_rating>
+  <!-- Desktop AND mobile supported -->
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </supports>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
   <releases>
     <release version="0.22.1 Beta" date="2024-12-12">
       <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.22.1-beta</url>
