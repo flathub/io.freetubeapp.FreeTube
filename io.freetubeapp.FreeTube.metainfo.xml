@@ -21,6 +21,8 @@
   <url type="homepage">https://freetubeapp.io/</url>
   <url type="bugtracker">https://github.com/FreeTubeApp/FreeTube/issues</url>
   <url type="help">https://docs.freetubeapp.io/</url>
+  <url type="contribute">https://docs.freetubeapp.io/development/getting-started</url>
+  <url type="vcs-browser">https://github.com/FreeTubeApp/FreeTube</url>
   <url type="translate">https://hosted.weblate.org/engage/free-tube/</url>
   <project_license>AGPL-3.0+</project_license>
   <developer_name>Preston</developer_name>
@@ -47,7 +49,19 @@
     <content_attribute id="social-audio">moderate</content_attribute>
     <content_attribute id="social-contacts">intense</content_attribute>
   </content_rating>
+  <!-- Desktop AND mobile supported -->
+  <supports>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </supports>
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
   <releases>
+    <release version="0.23.0 Beta" date="2025-1-30">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.0-beta</url>
+    </release>
     <release version="0.22.1 Beta" date="2024-12-12">
       <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.22.1-beta</url>
     </release>
