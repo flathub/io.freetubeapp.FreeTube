@@ -58,6 +58,9 @@
     <display_length compare="ge">360</display_length>
   </requires>
   <releases>
+    <release version="0.23.0 Beta" date="2025-1-30">
+      <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.23.0-beta</url>
+    </release>
     <release version="0.22.1 Beta" date="2024-12-12">
       <url>https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.22.1-beta</url>
     </release>
