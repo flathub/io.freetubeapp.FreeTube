@@ -24,7 +24,6 @@
   <url type="contribute">https://docs.freetubeapp.io/development/getting-started</url>
   <url type="vcs-browser">https://github.com/FreeTubeApp/FreeTube</url>
   <url type="translate">https://hosted.weblate.org/engage/free-tube/</url>
-  <url type="donation">https://liberapay.com/FreeTube</url>
   <project_license>AGPL-3.0+</project_license>
   <developer_name>Preston</developer_name>
   <screenshots>
