@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=FreeTube
-Comment=An Open Source YouTube app for privacy.
+Comment=An open-source YouTube app for privacy
+Comment[hu]=Nyílt forráskódú YouTube-alkalmazás az adatvédelem érdekében
 GenericName=FreeTube
 Exec=/app/bin/run.sh %u
 Icon=io.freetubeapp.FreeTube
