@@ -39,10 +39,6 @@
       <caption>Settings</caption>
       <image type="source" width="1567" height="1079">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube3.png</image>
     </screenshot>
-    <screenshot>
-      <caption>Dark theme</caption>
-      <image type="source" width="1920" height="1013">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube4.png</image>
-    </screenshot>
   </screenshots>
   <content_rating type="oars-1.0">
     <content_attribute id="social-chat">moderate</content_attribute>
