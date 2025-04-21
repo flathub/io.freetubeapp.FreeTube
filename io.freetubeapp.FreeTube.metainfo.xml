@@ -25,7 +25,7 @@
   <url type="vcs-browser">https://github.com/FreeTubeApp/FreeTube</url>
   <url type="translate">https://hosted.weblate.org/engage/free-tube/</url>
   <project_license>AGPL-3.0+</project_license>
-  <developer_name>Team FreeTube</developer_name>
+  <developer_name>FreeTube Team</developer_name>
   <screenshots>
     <screenshot type="default">
       <caption>The main FreeTube window</caption>
