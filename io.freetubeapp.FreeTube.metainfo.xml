@@ -29,19 +29,15 @@
   <screenshots>
     <screenshot type="default">
       <caption>The main FreeTube window</caption>
-      <image type="source" width="1920" height="1016">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube1.png</image>
+      <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube1.png</image>
     </screenshot>
     <screenshot>
       <caption>Watching a video</caption>
-      <image type="source" width="1920" height="1017">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube2.png</image>
+      <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube2.png</image>
     </screenshot>
     <screenshot>
       <caption>Settings</caption>
-      <image type="source" width="1567" height="1079">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube3.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Dark theme</caption>
-      <image type="source" width="1920" height="1013">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube4.png</image>
+      <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube3.png</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.0">
