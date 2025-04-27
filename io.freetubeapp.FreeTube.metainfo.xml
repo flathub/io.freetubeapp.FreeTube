@@ -47,16 +47,16 @@
   <developer_name>Preston</developer_name>
   <screenshots>
     <screenshot type="default">
-      <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube1.png</image>
       <caption>The main FreeTube window</caption>
+      <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube1.png</image>
     </screenshot>
     <screenshot>
-      <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube2.png</image>
       <caption>Watching a video</caption>
+      <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube2.png</image>
     </screenshot>
     <screenshot>
-      <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube3.png</image>
       <caption>Settings</caption>
+      <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube3.png</image>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.0">
