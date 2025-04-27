@@ -61,11 +61,6 @@
       <caption>Settings</caption>
       <caption xml:lang="hu">Beállítások</caption>
     </screenshot>
-    <screenshot>
-      <image type="source" width="1920" height="1013">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube4.png</image>
-      <caption>Dark theme</caption>
-      <caption xml:lang="hu">Sötét téma</caption>
-    </screenshot>
   </screenshots>
   <content_rating type="oars-1.0">
     <content_attribute id="social-chat">moderate</content_attribute>
