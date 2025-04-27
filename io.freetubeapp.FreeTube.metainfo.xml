@@ -47,17 +47,17 @@
   <developer_name>Preston</developer_name>
   <screenshots>
     <screenshot type="default">
-      <image type="source" width="1920" height="1016">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube1.png</image>
+      <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube1.png</image>
       <caption>The main FreeTube window</caption>
       <caption xml:lang="hu">A FreeTube fő ablaka</caption>
     </screenshot>
     <screenshot>
-      <image type="source" width="1920" height="1017">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube2.png</image>
+      <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube2.png</image>
       <caption>Watching a video</caption>
       <caption xml:lang="hu">Videó megtekintése</caption>
     </screenshot>
     <screenshot>
-      <image type="source" width="1567" height="1079">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube3.png</image>
+      <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube3.png</image>
       <caption>Settings</caption>
       <caption xml:lang="hu">Beállítások</caption>
     </screenshot>
