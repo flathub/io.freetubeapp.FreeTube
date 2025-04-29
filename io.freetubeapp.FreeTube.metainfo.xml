@@ -3,10 +3,8 @@
   <id type="desktop-application">io.freetubeapp.FreeTube</id>
   <metadata_license>CC0-1.0</metadata_license>
   <name>FreeTube</name>
-
   <summary>An open-source YouTube app for privacy</summary>
   <summary xml:lang="hu">Nyílt forráskódú YouTube-alkalmazás az adatvédelem érdekében</summary>
-
   <description>
     <p>
       FreeTube is an open-source desktop YouTube player built with privacy in
@@ -32,7 +30,6 @@
       hiányzó funkciók, amelyeket orvosolni kell.
     </p>
   </description>
-
   <launchable type="desktop-id">io.freetubeapp.FreeTube.desktop</launchable>
   <categories>
     <category>AudioVideo</category>
