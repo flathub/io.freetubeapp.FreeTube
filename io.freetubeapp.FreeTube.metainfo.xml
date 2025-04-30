@@ -3,15 +3,333 @@
   <id type="desktop-application">io.freetubeapp.FreeTube</id>
   <metadata_license>CC0-1.0</metadata_license>
   <name>FreeTube</name>
-  <summary>An Open Source YouTube app for privacy</summary>
+  <summary>An open-source YouTube app for privacy</summary>
+  <summary xml:lang="ar">تطبيق يوتيوب مفتوح المصدر للخصوصية</summary>
+  <summary xml:lang="az">Gizlilik üçün açıq mənbəli YouTube proqramı</summary>
+  <summary xml:lang="be">Праграма YouTube з адкрытым зыходным кодам для забеспячэння прыватнасці</summary>
+  <summary xml:lang="bg">Приложение за YouTube с отворен код за поверителност</summary>
+  <summary xml:lang="bn">গোপনীয়তার জন্য একটি ওপেন-সোর্স YouTube অ্যাপ</summary>
+  <summary xml:lang="ca">Una aplicació de YouTube de codi obert per a la privadesa</summary>
+  <summary xml:lang="cs">Open-source aplikace YouTube pro ochranu soukromí</summary>
+  <summary xml:lang="da">En open source YouTube-app til beskyttelse af personlige oplysninger</summary>
+  <summary xml:lang="de">Eine Open-Source-YouTube-App für den Datenschutz</summary>
+  <summary xml:lang="el">Μια εφαρμογή YouTube ανοιχτού κώδικα για προστασία απορρήτου</summary>
+  <summary xml:lang="en_GB">An open-source YouTube app for privacy</summary>
+  <summary xml:lang="eo">Malfermfonteca YouTube-aplikaĵo por privateco</summary>
+  <summary xml:lang="es">Una aplicación de YouTube de código abierto para la privacidad</summary>
+  <summary xml:lang="et">Avatud lähtekoodiga YouTube'i rakendus privaatsuse tagamiseks</summary>
+  <summary xml:lang="fa">یک برنامه یوتیوب متن‌باز برای حفظ حریم خصوصی</summary>
+  <summary xml:lang="fi">Avoimen lähdekoodin YouTube-sovellus yksityisyyden suojaamiseksi</summary>
+  <summary xml:lang="fil">Isang open-source na YouTube app para sa privacy</summary>
+  <summary xml:lang="fr">Une application YouTube open source pour la confidentialité</summary>
+  <summary xml:lang="ga">Aip YouTube foinse oscailte le haghaidh príobháideachta</summary>
+  <summary xml:lang="he">אפליקציית YouTube בקוד פתוח לשמירה על פרטיות</summary>
+  <summary xml:lang="hi">गोपनीयता के लिए एक ओपन-सोर्स यूट्यूब ऐप</summary>
+  <summary xml:lang="hr">YouTube aplikacija otvorenog koda za privatnost</summary>
+  <summary xml:lang="hu">Nyílt forráskódú YouTube-alkalmazás az adatvédelem érdekében</summary>
+  <summary xml:lang="hy">Բաց կոդով YouTube հավելված՝ գաղտնիության համար</summary>
+  <summary xml:lang="id">Aplikasi YouTube sumber terbuka untuk privasi</summary>
+  <summary xml:lang="it">Un'app YouTube open source per la privacy</summary>
+  <summary xml:lang="ja">プライバシー保護のためのオープンソースのYouTubeアプリ</summary>
+  <summary xml:lang="ko">개인 정보 보호를 위한 오픈 소스 YouTube 앱</summary>
+  <summary xml:lang="lt">Atvirojo kodo „YouTube“ programėlė privatumui užtikrinti</summary>
+  <summary xml:lang="nl">Een open-source YouTube-app voor privacy</summary>
+  <summary xml:lang="oc">Una aplicacion YouTube de còde dobèrt per la vida privada</summary>
+  <summary xml:lang="pa">ਗੋਪਨੀਯਤਾ ਲਈ ਇੱਕ ਓਪਨ-ਸੋਰਸ YouTube ਐਪ</summary>
+  <summary xml:lang="pl">Aplikacja YouTube z otwartym kodem źródłowym zapewniająca prywatność</summary>
+  <summary xml:lang="pt_BR">Um aplicativo de código aberto do YouTube para privacidade</summary>
+  <summary xml:lang="pt">Uma aplicação de código aberto do YouTube para privacidade</summary>
+  <summary xml:lang="ro">O aplicație YouTube open-source pentru confidențialitate</summary>
+  <summary xml:lang="ru">Приложение YouTube с открытым исходным кодом для обеспечения конфиденциальности</summary>
+  <summary xml:lang="si">පෞද්ගලිකත්වය සඳහා විවෘත මූලාශ්‍ර YouTube යෙදුමක්</summary>
+  <summary xml:lang="sq">Një aplikacion YouTube me burim të hapur për privatësi</summary>
+  <summary xml:lang="sv">En YouTube-app med öppen källkod för integritet</summary>
+  <summary xml:lang="ta">தனியுரிமைக்கான ஓப்பன் சோர்ஸ் YouTube பயன்பாடு</summary>
+  <summary xml:lang="tr">Gizlilik için açık kaynaklı bir YouTube uygulaması</summary>
+  <summary xml:lang="uk">Додаток YouTube з відкритим кодом для забезпечення конфіденційності</summary>
+  <summary xml:lang="vi">Một ứng dụng YouTube nguồn mở bảo vệ quyền riêng tư</summary>
   <description>
-    <p>FreeTube is an open source desktop YouTube player built with privacy in
-    mind. Use YouTube without advertisements and prevent Google from tracking
-    you with their cookies and JavaScript. Available for Windows, Mac &amp;
-    Linux thanks to Electron.</p>
-    <p>Please note that FreeTube is currently in Beta. While it should work well
-    for most users, there are still bugs and missing features that need to be
-    addressed.</p>
+    <p>
+      FreeTube is an open-source desktop YouTube player built with privacy in
+      mind. Use YouTube without advertisements and prevent Google from tracking
+      you with their cookies and JavaScript. Available for GNU/Linux, macOS, and
+      Windows thanks to Electron.
+    </p>
+    <p>
+      Please note that FreeTube is currently in Beta. While it should work well
+      for most users, there are still bugs and missing features that need to be
+      addressed.
+    </p>
+    <p xml:lang="ar">
+      FreeTube هو مشغل يوتيوب مفتوح المصدر لأجهزة سطح المكتب، مصمم مع مراعاة الخصوصية. استخدم يوتيوب بدون إعلانات، وامنع جوجل من تتبعك باستخدام ملفات تعريف الارتباط وجافا سكريبت. متوفر لأنظمة GNU/Linux وmacOS وWindows بفضل Electron.
+    </p>
+    <p xml:lang="ar">
+      يرجى العلم أن FreeTube حاليًا في مرحلة تجريبية. مع أنه من المفترض أن يعمل بشكل جيد مع معظم المستخدمين، إلا أنه لا يزال يحتوي على أخطاء وميزات مفقودة تحتاج إلى معالجة.
+    </p>
+    <p xml:lang="az">
+      FreeTube məxfilik nəzərə alınmaqla qurulmuş açıq mənbəli masaüstü YouTube pleyeridir. YouTube-dan reklamsız istifadə edin və Google-un sizi kukiləri və JavaScript ilə izləməsinin qarşısını alın. Electron sayəsində GNU/Linux, macOS və Windows üçün əlçatandır.
+    </p>
+    <p xml:lang="az">
+      Nəzərə alın ki, FreeTube hazırda Beta-dadır. Əksər istifadəçilər üçün yaxşı işləməli olsa da, hələ də həll edilməli olan səhvlər və çatışmayan xüsusiyyətlər var.
+    </p>
+    <p xml:lang="be">
+      FreeTube — гэта настольны плэер YouTube з адкрытым зыходным кодам, створаны з улікам прыватнасці. Карыстайцеся YouTube без рэкламы і не дазваляйце Google адсочваць вас з дапамогай файлаў cookie і JavaScript. Даступны для GNU/Linux, macOS і Windows дзякуючы Electron.
+    </p>
+    <p xml:lang="be">
+      Звярніце ўвагу, што FreeTube зараз знаходзіцца ў бэта-версіі. Хоць ён павінен добра працаваць для большасці карыстальнікаў, усё яшчэ ёсць памылкі і адсутныя функцыі, якія патрабуюць выпраўлення.
+    </p>
+    <p xml:lang="bg">
+      FreeTube е десктоп YouTube плейър с отворен код, създаден с мисъл за поверителност. Използвайте YouTube без реклами и предотвратете проследяването от Google чрез техните бисквитки и JavaScript. Достъпен за GNU/Linux, macOS и Windows благодарение на Electron.
+    </p>
+    <p xml:lang="bg">
+      Моля, обърнете внимание, че FreeTube в момента е в бета версия. Въпреки че би трябвало да работи добре за повечето потребители, все още има грешки и липсващи функции, които трябва да бъдат отстранени.
+    </p>
+    <p xml:lang="bn">
+      FreeTube হল একটি ওপেন-সোর্স ডেস্কটপ ইউটিউব প্লেয়ার যা গোপনীয়তার কথা মাথায় রেখে তৈরি করা হয়েছে। বিজ্ঞাপন ছাড়াই YouTube ব্যবহার করুন এবং Google কে তাদের কুকিজ এবং জাভাস্ক্রিপ্টের মাধ্যমে আপনাকে ট্র্যাক করতে বাধা দিন। GNU/Linux, macOS এবং Windows এর জন্য উপলব্ধ, Electron-এর জন্য ধন্যবাদ।
+    </p>
+    <p xml:lang="bn">
+      দয়া করে মনে রাখবেন যে FreeTube বর্তমানে বিটাতে রয়েছে। যদিও এটি বেশিরভাগ ব্যবহারকারীর জন্য ভালভাবে কাজ করবে, তবুও কিছু বাগ এবং অনুপস্থিত বৈশিষ্ট্য রয়েছে যা সমাধান করা প্রয়োজন।
+    </p>
+    <p xml:lang="ca">
+      FreeTube és un reproductor de YouTube per a escriptori de codi obert creat tenint en compte la privadesa. Fes servir YouTube sense anuncis i evita que Google et rastregi amb les seves galetes i JavaScript. Disponible per a GNU/Linux, macOS i Windows gràcies a Electron.
+    </p>
+    <p xml:lang="ca">
+      Tingueu en compte que FreeTube està actualment en versió beta. Tot i que hauria de funcionar bé per a la majoria d'usuaris, encara hi ha errors i funcions que falten que cal solucionar.
+    </p>
+    <p xml:lang="cs">
+      FreeTube je open-source desktopový přehrávač YouTube, vytvořený s ohledem na soukromí. Používejte YouTube bez reklam a zabraňte Googlu ve sledování pomocí souborů cookie a JavaScriptu. Díky platformě Electron je k dispozici pro GNU/Linux, macOS a Windows.
+    </p>
+    <p xml:lang="cs">
+      Upozorňujeme, že FreeTube je momentálně v beta verzi. I když by měl většině uživatelů fungovat dobře, stále se vyskytují chyby a chybějící funkce, které je třeba vyřešit.
+    </p>
+    <p xml:lang="da">
+      FreeTube er en open source YouTube-afspiller til desktop, der er bygget med privatliv i tankerne. Brug YouTube uden reklamer, og forhindr Google i at spore dig med deres cookies og JavaScript. Tilgængelig til GNU/Linux, macOS og Windows takket være Electron.
+    </p>
+    <p xml:lang="da">
+      Bemærk venligst, at FreeTube i øjeblikket er i beta. Selvom det burde fungere godt for de fleste brugere, er der stadig fejl og manglende funktioner, der skal rettes.
+    </p>
+    <p xml:lang="de">
+      FreeTube ist ein Open-Source-YouTube-Player für Desktop-Computer, der speziell für Datenschutz entwickelt wurde. Nutzen Sie YouTube ohne Werbung und verhindern Sie, dass Google Sie mithilfe von Cookies und JavaScript verfolgt. Dank Electron ist FreeTube für GNU/Linux, macOS und Windows verfügbar.
+    </p>
+    <p xml:lang="de">
+      FreeTube befindet sich derzeit in der Beta-Phase. Obwohl es für die meisten Nutzer gut funktionieren sollte, gibt es noch Fehler und fehlende Funktionen, die behoben werden müssen.
+    </p>
+    <p xml:lang="el">
+      Το FreeTube είναι ένα πρόγραμμα αναπαραγωγής YouTube ανοιχτού κώδικα για επιτραπέζιους υπολογιστές, κατασκευασμένο με γνώμονα την προστασία της ιδιωτικής ζωής. Χρησιμοποιήστε το YouTube χωρίς διαφημίσεις και αποτρέψτε την Google από το να σας παρακολουθεί με τα cookies και το JavaScript. Διαθέσιμο για GNU/Linux, macOS και Windows χάρη στην Electron.
+    </p>
+    <p xml:lang="el">
+      Λάβετε υπόψη ότι το FreeTube βρίσκεται αυτήν τη στιγμή σε έκδοση beta. Ενώ θα πρέπει να λειτουργεί καλά για τους περισσότερους χρήστες, εξακολουθούν να υπάρχουν σφάλματα και ελλείπουσες λειτουργίες που πρέπει να αντιμετωπιστούν.
+    </p>
+    <p xml:lang="en_GB">
+      FreeTube is an open-source desktop YouTube player built with privacy in mind. Use YouTube without advertisements and prevent Google from tracking you with their cookies and JavaScript. Available for GNU/Linux, macOS, and Windows thanks to Electron.
+    </p>
+    <p xml:lang="en_GB">
+      Please note that FreeTube is currently in Beta. While it should work well for most users, there are still bugs and missing features that need to be addressed.
+    </p>
+    <p xml:lang="eo">
+      FreeTube estas malfermfonteca YouTube-ludilo por labortablo, konstruita konsiderante privatecon. Uzu YouTube sen reklamoj kaj malhelpu Google spuri vin per siaj kuketoj kaj JavaScript. Disponebla por GNU/Linukso, macOS kaj Vindozo danke al Electron.
+    </p>
+    <p xml:lang="eo">
+      Bonvolu noti, ke FreeTube nuntempe estas en Beta-versio. Kvankam ĝi devus funkcii bone por plej multaj uzantoj, ankoraŭ ekzistas cimoj kaj mankantaj funkcioj, kiujn oni devas ripari.
+    </p>
+    <p xml:lang="es">
+      FreeTube es un reproductor de YouTube de escritorio de código abierto diseñado pensando en la privacidad. Disfruta de YouTube sin anuncios y evita que Google te rastree con sus cookies y JavaScript. Disponible para GNU/Linux, macOS y Windows gracias a Electron.
+    </p>
+    <p xml:lang="es">
+      Ten en cuenta que FreeTube se encuentra actualmente en fase beta. Si bien debería funcionar correctamente para la mayoría de los usuarios, aún presenta errores y funciones que faltan y que deben solucionarse.
+    </p>
+    <p xml:lang="et">
+      FreeTube on avatud lähtekoodiga YouTube'i töölauapleier, mis on loodud privaatsust silmas pidades. Kasutage YouTube'i ilma reklaamideta ja takistage Google'il teid küpsiste ja JavaScripti abil jälgimast. Tänu Electronile on see saadaval GNU/Linuxile, macOS-ile ja Windowsile.
+    </p>
+    <p xml:lang="et">
+      Pange tähele, et FreeTube on praegu beetaversioonis. Kuigi see peaks enamiku kasutajate jaoks hästi töötama, on siiski vigu ja puuduvaid funktsioone, mis vajavad parandamist.
+    </p>
+    <p xml:lang="fa">
+      FreeTube یک پخش‌کننده یوتیوب دسکتاپ متن‌باز است که با در نظر گرفتن حریم خصوصی ساخته شده است. بدون تبلیغات از یوتیوب استفاده کنید و از ردیابی خود توسط گوگل با کوکی‌ها و جاوا اسکریپت جلوگیری کنید. به لطف Electron برای گنو/لینوکس، macOS و ویندوز در دسترس است.
+    </p>
+    <p xml:lang="fa">
+      لطفاً توجه داشته باشید که FreeTube در حال حاضر در نسخه بتا است. اگرچه باید برای اکثر کاربران به خوبی کار کند، اما هنوز اشکالات و ویژگی‌های از دست رفته‌ای وجود دارد که باید برطرف شوند.
+    </p>
+    <p xml:lang="fi">
+      FreeTube on avoimen lähdekoodin YouTube-soitin työpöydälle, joka on rakennettu yksityisyyttä ajatellen. Käytä YouTubea ilman mainoksia ja estä Googlea seuraamasta sinua evästeillään ja JavaScriptillään. Saatavilla GNU/Linux-, macOS- ja Windows-käyttöjärjestelmille Electronin ansiosta.
+    </p>
+    <p xml:lang="fi">
+      Huomaa, että FreeTube on tällä hetkellä beta-vaiheessa. Vaikka sen pitäisi toimia hyvin useimmille käyttäjille, siinä on edelleen virheitä ja puuttuvia ominaisuuksia, jotka on korjattava.
+    </p>
+    <p xml:lang="fil">
+      Ang FreeTube ay isang open-source na desktop YouTube player na binuo na may iniisip na privacy. Gamitin ang YouTube nang walang mga ad at pigilan ang Google na subaybayan ka gamit ang kanilang cookies at JavaScript. Magagamit para sa GNU/Linux, macOS, at Windows salamat sa Electron.
+    </p>
+    <p xml:lang="fil">
+      Pakitandaan na ang FreeTube ay kasalukuyang nasa Beta. Bagama't dapat itong gumana nang maayos para sa karamihan ng mga user, mayroon pa ring mga bug at nawawalang feature na kailangang matugunan.
+    </p>
+    <p xml:lang="fr">
+      FreeTube est un lecteur YouTube open source conçu pour la confidentialité. Utilisez YouTube sans publicité et empêchez Google de vous suivre avec ses cookies et JavaScript. Disponible pour les systèmes d'exploitation GNU/Linux, macOS et Windows grâce à Electron.
+    </p>
+    <p xml:lang="fr">
+      Veuillez noter que FreeTube est actuellement en version bêta. Bien qu'il devrait fonctionner correctement pour la plupart des utilisateurs, il présente encore des bugs et des fonctionnalités manquantes qui doivent être corrigés.
+    </p>
+    <p xml:lang="ga">
+      Is seinnteoir YouTube foinse oscailte é FreeTube atá tógtha le príobháideacht san áireamh. Bain úsáid as YouTube gan fhógraí agus cosc ​​a chur ar Google tú a rianú lena gcuid fianán agus JavaScript. Ar fáil do GNU/Linux, macOS, agus Windows a bhuíochas le Electron.
+    </p>
+    <p xml:lang="ga">
+      Tabhair faoi deara go bhfuil FreeTube i mBéite faoi láthair. Cé gur cheart go n-oibreodh sé go maith do fhormhór na n-úsáideoirí, tá fabhtanna agus gnéithe in easnamh ann fós a gcaithfear aghaidh a thabhairt orthu.
+    </p>
+    <p xml:lang="he">
+      FreeTube הוא נגן יוטיוב בקוד פתוח למחשבות על פרטיות. השתמשו ביוטיוב ללא פרסומות ומנעו מגוגל לעקוב אחריכם באמצעות קובצי Cookie ו-JavaScript. זמין עבור מערכות ההפעלה GNU/Linux, macOS ו-Windows הודות ל-Electron.
+    </p>
+    <p xml:lang="he">
+      שימו לב ש-FreeTube נמצא כעת בשלב בטא. למרות שהוא אמור לעבוד היטב עבור רוב המשתמשים, עדיין ישנם באגים ותכונות חסרות שיש לטפל בהן.
+    </p>
+    <p xml:lang="hi">
+      FreeTube एक ओपन-सोर्स डेस्कटॉप YouTube प्लेयर है जिसे गोपनीयता को ध्यान में रखकर बनाया गया है। विज्ञापनों के बिना YouTube का उपयोग करें और Google को उनकी कुकीज़ और जावास्क्रिप्ट के साथ आपको ट्रैक करने से रोकें। इलेक्ट्रॉन की बदौलत GNU/Linux, macOS और Windows के लिए उपलब्ध है।
+    </p>
+    <p xml:lang="hi">
+      कृपया ध्यान दें कि FreeTube अभी बीटा में है। हालाँकि यह अधिकांश उपयोगकर्ताओं के लिए अच्छा काम करेगा, फिर भी इसमें बग और गायब सुविधाएँ हैं जिन्हें संबोधित करने की आवश्यकता है।
+    </p>
+    <p xml:lang="hr">
+      FreeTube je YouTube player otvorenog koda za stolna računala, izgrađen imajući na umu privatnost. Koristite YouTube bez reklama i spriječite Google da vas prati pomoću svojih kolačića i JavaScripta. Dostupan je za operativne sustave GNU/Linux, macOS i Windows zahvaljujući Electronu.
+    </p>
+    <p xml:lang="hr">
+      Imajte na umu da je FreeTube trenutno u beta verziji. Iako bi trebao dobro funkcionirati za većinu korisnika, još uvijek postoje greške i nedostajuće značajke koje treba riješiti.
+    </p>
+    <p xml:lang="hu">
+      A FreeTube egy nyílt forráskódú asztali YouTube-lejátszó, amely a magánélet védelmét szem előtt tartva készült. Használja a YouTube-ot hirdetések nélkül, és akadályozza meg, hogy a Google nyomon kövesse Önt a cookie-jaival és a JavaScripttel. Elérhető GNU/Linux, macOS és Windows rendszerekhez az Electronnak köszönhetően.
+    </p>
+    <p xml:lang="hu">
+      Felhívjuk figyelmét, hogy a FreeTube jelenleg bétaverzióban van. Bár a legtöbb felhasználó számára jól kell működnie, még mindig vannak hibák és hiányzó funkciók, amelyeket orvosolni kell.
+    </p>
+    <p xml:lang="hy">
+      FreeTube-ը բաց կոդով աշխատասեղանի YouTube նվագարկիչ է, որը կառուցված է գաղտնիությունը հաշվի առնելով: Օգտագործեք YouTube-ը առանց գովազդի և թույլ մի տվեք Google-ին հետևել ձեզ իր cookie-ների և JavaScript-ի միջոցով: Հասանելի է GNU/Linux, macOS և Windows-ի համար՝ շնորհիվ Electron-ի:
+    </p>
+    <p xml:lang="hy">
+      Խնդրում ենք նկատի ունենալ, որ FreeTube-ը ներկայումս գտնվում է բետա տարբերակում: Չնայած այն պետք է լավ աշխատի օգտատերերի մեծ մասի համար, դեռևս կան սխալներ և բացակայող գործառույթներ, որոնք պետք է լուծվեն:
+    </p>
+    <p xml:lang="id">
+      FreeTube adalah pemutar YouTube desktop sumber terbuka yang dibuat dengan mengutamakan privasi. Gunakan YouTube tanpa iklan dan cegah Google melacak Anda dengan cookie dan JavaScript mereka. Tersedia untuk sistem operasi GNU/Linux, macOS, dan Windows berkat Electron.
+    </p>
+    <p xml:lang="id">
+      Harap perhatikan bahwa FreeTube saat ini masih dalam tahap Beta. Meskipun seharusnya berfungsi dengan baik bagi sebagian besar pengguna, masih ada bug dan fitur yang hilang yang perlu diatasi.
+    </p>
+    <p xml:lang="it">
+      FreeTube è un player YouTube desktop open source progettato per garantire la privacy. Usa YouTube senza pubblicità e impedisci a Google di tracciarti tramite cookie e JavaScript. Disponibile per i sistemi operativi GNU/Linux, macOS e Windows grazie a Electron.
+    </p>
+    <p xml:lang="it">
+      Si prega di notare che FreeTube è attualmente in versione beta. Sebbene dovrebbe funzionare correttamente per la maggior parte degli utenti, presenta ancora bug e funzionalità mancanti che devono essere risolti.
+    </p>
+    <p xml:lang="ja">
+      FreeTubeは、プライバシーに配慮して構築されたオープンソースのデスクトップYouTubeプレーヤーです。広告なしでYouTubeを視聴でき、GoogleによるCookieやJavaScriptを使ったトラッキングを防止できます。Electronのおかげで、GNU/Linux、macOS、Windowsの各オペレーティングシステムで利用可能です。
+    </p>
+    <p xml:lang="ja">
+      FreeTubeは現在ベータ版です。ほとんどのユーザーにとって問題なく動作するはずですが、まだバグや未対応の機能があります。
+    </p>
+    <p xml:lang="kn">
+      FreeTube ಎಂಬುದು ಗೌಪ್ಯತೆಯನ್ನು ಗಮನದಲ್ಲಿಟ್ಟುಕೊಂಡು ನಿರ್ಮಿಸಲಾದ ಓಪನ್ ಸೋರ್ಸ್ ಡೆಸ್ಕ್‌ಟಾಪ್ YouTube ಪ್ಲೇಯರ್ ಆಗಿದೆ. ಜಾಹೀರಾತುಗಳಿಲ್ಲದೆ YouTube ಅನ್ನು ಬಳಸಿ ಮತ್ತು Google ತನ್ನ ಕುಕೀಗಳು ಮತ್ತು ಜಾವಾಸ್ಕ್ರಿಪ್ಟ್‌ನೊಂದಿಗೆ ನಿಮ್ಮನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡುವುದನ್ನು ತಡೆಯಿರಿ. ಎಲೆಕ್ಟ್ರಾನ್‌ಗೆ ಧನ್ಯವಾದಗಳು GNU/Linux, macOS ಮತ್ತು Windows ಆಪರೇಟಿಂಗ್ ಸಿಸ್ಟಮ್‌ಗಳಿಗೆ ಲಭ್ಯವಿದೆ.
+    </p>
+    <p xml:lang="kn">
+      ದಯವಿಟ್ಟು ಗಮನಿಸಿ FreeTube ಪ್ರಸ್ತುತ ಬೀಟಾದಲ್ಲಿದೆ. ಹೆಚ್ಚಿನ ಬಳಕೆದಾರರಿಗೆ ಇದು ಉತ್ತಮವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸಬೇಕಾದರೂ, ಇನ್ನೂ ದೋಷಗಳು ಮತ್ತು ಕಾಣೆಯಾದ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಪರಿಹರಿಸಬೇಕಾಗಿದೆ.
+    </p>
+    <p xml:lang="ko">
+      FreeTube는 개인정보 보호를 염두에 두고 제작된 오픈소스 데스크톱 YouTube 플레이어입니다. 광고 없이 YouTube를 이용하고 Google이 쿠키와 JavaScript를 사용하여 사용자를 추적하는 것을 방지하세요. Electron 덕분에 GNU/Linux, macOS, Windows 운영 체제에서 사용할 수 있습니다.
+    </p>
+    <p xml:lang="ko">
+      FreeTube는 현재 베타 버전입니다. 대부분의 사용자에게는 잘 작동하지만, 아직 버그와 수정해야 할 기능이 있습니다.
+    </p>
+    <p xml:lang="lt">
+      „FreeTube“ yra atvirojo kodo „YouTube“ grotuvas, sukurtas atsižvelgiant į privatumą. Naudokite „YouTube“ be reklamų ir neleiskite „Google“ sekti jūsų naudojant slapukus ir „JavaScript“. Prieinama GNU/Linux, macOS ir Windows operacinėms sistemoms dėl „Electron“.
+    </p>
+    <p xml:lang="lt">
+      Atkreipkite dėmesį, kad „FreeTube“ šiuo metu yra beta versijoje. Nors daugumai vartotojų jis turėtų veikti gerai, vis dar yra klaidų ir trūkstamų funkcijų, kurias reikia ištaisyti.
+    </p>
+    <p xml:lang="nl">
+      FreeTube is een open-source YouTube-speler voor desktops, gebouwd met privacy in gedachten. Gebruik YouTube zonder advertenties en voorkom dat Google je volgt met hun cookies en JavaScript. Beschikbaar voor GNU/Linux, macOS en Windows dankzij Electron.
+    </p>
+    <p xml:lang="nl">
+      Houd er rekening mee dat FreeTube momenteel in de bètafase is. Hoewel het voor de meeste gebruikers goed zou moeten werken, zijn er nog steeds bugs en ontbrekende functies die moeten worden aangepakt.
+    </p>
+    <p xml:lang="oc">
+      FreeTube es un lector YouTube de burèu de còde dobèrt bastit amb la vida privada en ment. Utilizatz YouTube sens publicitat e empachatz Google de vos seguir amb sos cookies e JavaScript. Disponible per GNU/Linux, macOS, e Windows mercés a Electron.
+    </p>
+    <p xml:lang="oc">
+      Notatz que FreeTube es actualament en beta. Mentre que deuriá foncionar plan per la màger part dels utilizaires, i a encara de bugs e de foncionalitats mancantas que cal abordar.
+    </p>
+    <p xml:lang="pa">
+      FreeTube ਇੱਕ ਓਪਨ-ਸੋਰਸ ਡੈਸਕਟੌਪ YouTube ਪਲੇਅਰ ਹੈ ਜੋ ਗੋਪਨੀਯਤਾ ਨੂੰ ਧਿਆਨ ਵਿੱਚ ਰੱਖ ਕੇ ਬਣਾਇਆ ਗਿਆ ਹੈ। ਇਸ਼ਤਿਹਾਰਾਂ ਤੋਂ ਬਿਨਾਂ YouTube ਦੀ ਵਰਤੋਂ ਕਰੋ ਅਤੇ Google ਨੂੰ ਉਹਨਾਂ ਦੀਆਂ ਕੂਕੀਜ਼ ਅਤੇ JavaScript ਨਾਲ ਤੁਹਾਨੂੰ ਟਰੈਕ ਕਰਨ ਤੋਂ ਰੋਕੋ। GNU/Linux, macOS, ਅਤੇ Windows ਲਈ ਉਪਲਬਧ ਹੈ Electron ਦਾ ਧੰਨਵਾਦ।
+    </p>
+    <p xml:lang="pa">
+      ਕਿਰਪਾ ਕਰਕੇ ਧਿਆਨ ਦਿਓ ਕਿ FreeTube ਵਰਤਮਾਨ ਵਿੱਚ ਬੀਟਾ ਵਿੱਚ ਹੈ। ਹਾਲਾਂਕਿ ਇਸਨੂੰ ਜ਼ਿਆਦਾਤਰ ਉਪਭੋਗਤਾਵਾਂ ਲਈ ਵਧੀਆ ਕੰਮ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ, ਫਿਰ ਵੀ ਬੱਗ ਅਤੇ ਗੁੰਮ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਹਨ ਜਿਨ੍ਹਾਂ ਨੂੰ ਹੱਲ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।
+    </p>
+    <p xml:lang="pl">
+      FreeTube to odtwarzacz YouTube na komputery stacjonarne z otwartym kodem źródłowym, stworzony z myślą o prywatności. Korzystaj z YouTube bez reklam i zapobiegaj śledzeniu Cię przez Google za pomocą plików cookie i JavaScript. Dostępny dla systemów operacyjnych GNU/Linux, macOS i Windows dzięki Electron.
+    </p>
+    <p xml:lang="pl">
+      Należy pamiętać, że FreeTube jest obecnie w wersji beta. Chociaż powinien działać dobrze dla większości użytkowników, nadal istnieją błędy i brakujące funkcje, które należy rozwiązać.
+    </p>
+    <p xml:lang="pt_BR">
+      O FreeTube é um player de YouTube para desktop de código aberto, desenvolvido com foco na privacidade. Use o YouTube sem anúncios e impeça o Google de rastreá-lo com seus cookies e JavaScript. Disponível para os sistemas operacionais GNU/Linux, macOS e Windows, graças ao Electron.
+    </p>
+    <p xml:lang="pt_BR">
+      Observe que o FreeTube está atualmente em fase Beta. Embora deva funcionar bem para a maioria dos usuários, ainda existem bugs e recursos ausentes que precisam ser corrigidos.
+    </p>
+    <p xml:lang="pt">
+      O FreeTube é um leitor de YouTube para desktop de código aberto, desenvolvido com foco na privacidade. Utilize o YouTube sem anúncios e impeça que o Google o rastreie com os seus cookies e JavaScript. Disponível para os sistemas operativos GNU/Linux, macOS e Windows, graças ao Electron.
+    </p>
+    <p xml:lang="pt">
+      Note que o FreeTube está atualmente em fase Beta. Embora deva funcionar bem para a maioria dos utilizadores, ainda existem bugs e características em falta que precisam de ser corrigidas.
+    </p>
+    <p xml:lang="ro">
+      FreeTube este un player YouTube open-source pentru desktop, conceput având în vedere confidențialitatea. Folosește YouTube fără reclame și împiedică Google să te urmărească cu cookie-urile și JavaScript-ul lor. Disponibil pentru sistemele de operare GNU/Linux, macOS și Windows datorită Electron.
+    </p>
+    <p xml:lang="ro">
+      Reține că FreeTube este în prezent în versiune Beta. Deși ar trebui să funcționeze bine pentru majoritatea utilizatorilor, există încă erori și funcții lipsă care trebuie remediate.
+    </p>
+    <p xml:lang="ru">
+      FreeTube — это плеер YouTube с открытым исходным кодом для ПК, созданный с учетом конфиденциальности. Используйте YouTube без рекламы и не позволяйте Google отслеживать вас с помощью своих файлов cookie и JavaScript. Доступно для операционных систем GNU/Linux, macOS и Windows благодаря Electron.
+    </p>
+    <p xml:lang="ru">
+      Обратите внимание, что FreeTube в настоящее время находится в стадии бета-тестирования. Хотя он должен хорошо работать для большинства пользователей, все еще есть ошибки и отсутствующие функции, которые необходимо устранить.
+    </p>
+    <p xml:lang="si">
+      FreeTube යනු පෞද්ගලිකත්වය මනසේ තබාගෙන ගොඩනගා ඇති විවෘත මූලාශ්‍ර ඩෙස්ක්ටොප් YouTube වාදකයකි. වෙළඳ දැන්වීම් නොමැතිව YouTube භාවිතා කරන්න සහ Google ඔවුන්ගේ කුකීස් සහ JavaScript සමඟ ඔබව නිරීක්ෂණය කිරීමෙන් වළක්වන්න. Electron නිසා GNU/Linux, macOS සහ Windows සඳහා ලබා ගත හැකිය.
+    </p>
+    <p xml:lang="si">
+      FreeTube දැනට බීටා අනුවාදයේ ඇති බව කරුණාවෙන් සලකන්න. එය බොහෝ පරිශීලකයින් සඳහා හොඳින් ක්‍රියා කළ යුතු වුවද, තවමත් විසඳිය යුතු දෝෂ සහ අතුරුදහන් වූ විශේෂාංග තිබේ.
+    </p>
+    <p xml:lang="sq">
+      FreeTube është një program për luajtjen e YouTube-it me burim të hapur për desktop, i ndërtuar duke pasur parasysh privatësinë. Përdorni YouTube pa reklama dhe parandaloni që Google t'ju gjurmojë me anë të cookie-ve dhe JavaScript-it të tyre. I disponueshëm për sistemet operative GNU/Linux, macOS dhe Windows falë Electron.
+    </p>
+    <p xml:lang="sq">
+      Ju lutemi vini re se FreeTube është aktualisht në Beta. Ndërsa duhet të funksionojë mirë për shumicën e përdoruesve, ka ende gabime dhe funksione që mungojnë që duhen adresuar.
+    </p>
+    <p xml:lang="sv">
+      FreeTube är en YouTube-spelare med öppen källkod för skrivbordet, byggd med integritet i åtanke. Använd YouTube utan reklam och förhindra att Google spårar dig med sina cookies och JavaScript. Tillgänglig för operativsystemen GNU/Linux, macOS och Windows tack vare Electron.
+    </p>
+    <p xml:lang="sv">
+      Observera att FreeTube för närvarande är i beta. Även om det borde fungera bra för de flesta användare finns det fortfarande buggar och saknade funktioner som behöver åtgärdas.
+    </p>
+    <p xml:lang="ta">
+      FreeTube என்பது தனியுரிமையை மனதில் கொண்டு உருவாக்கப்பட்ட ஒரு திறந்த மூல டெஸ்க்டாப் YouTube பிளேயர் ஆகும். விளம்பரங்கள் இல்லாமல் YouTube ஐப் பயன்படுத்தவும், கூகிள் அதன் குக்கீகள் மற்றும் ஜாவாஸ்கிரிப்ட் மூலம் உங்களைக் கண்காணிப்பதைத் தடுக்கவும். எலக்ட்ரான் காரணமாக GNU/Linux, macOS மற்றும் Windows இயக்க முறைமைகளுக்கு கிடைக்கிறது.
+    </p>
+    <p xml:lang="ta">
+      FreeTube தற்போது பீட்டாவில் உள்ளது என்பதை நினைவில் கொள்ளவும். பெரும்பாலான பயனர்களுக்கு இது நன்றாக வேலை செய்ய வேண்டும் என்றாலும், இன்னும் பிழைகள் மற்றும் விடுபட்ட அம்சங்கள் உள்ளன, அவை கவனிக்கப்பட வேண்டும்.
+    </p>
+    <p xml:lang="tr">
+      FreeTube, gizlilik düşünülerek oluşturulmuş açık kaynaklı bir masaüstü YouTube oynatıcısıdır. YouTube'u reklamsız kullanın ve Google'ın çerezleri ve JavaScript'iyle sizi izlemesini önleyin. Electron sayesinde GNU/Linux, macOS ve Windows işletim sistemleri için kullanılabilir.
+    </p>
+    <p xml:lang="tr">
+      Lütfen FreeTube'un şu anda Beta aşamasında olduğunu unutmayın. Çoğu kullanıcı için iyi çalışması gerekirken, hala ele alınması gereken hatalar ve eksik özellikler var.
+    </p>
+    <p xml:lang="uk">
+      FreeTube — це програвач YouTube з відкритим кодом для комп’ютера, створений з урахуванням конфіденційності. Користуйтеся YouTube без реклами та не дозволяйте Google відстежувати вас за допомогою файлів cookie та JavaScript. Доступний для операційних систем GNU/Linux, macOS та Windows завдяки Electron.
+    </p>
+    <p xml:lang="uk">
+      Зверніть увагу, що FreeTube наразі перебуває в бета-версії. Хоча він має добре працювати для більшості користувачів, все ще є помилки та відсутні функції, які потребують вирішення.
+    </p>
+    <p xml:lang="vi">
+      FreeTube là trình phát YouTube nguồn mở dành cho máy tính để bàn được xây dựng với mục đích bảo mật. Sử dụng YouTube mà không có quảng cáo và ngăn Google theo dõi bạn bằng cookie và JavaScript của họ. Có sẵn cho các hệ điều hành GNU/Linux, macOS và Windows nhờ Electron.
+    </p>
+    <p xml:lang="vi">
+      Xin lưu ý rằng FreeTube hiện đang trong giai đoạn Beta. Mặc dù nó sẽ hoạt động tốt với hầu hết người dùng, nhưng vẫn còn lỗi và thiếu các tính năng cần được giải quyết.
+    </p>
   </description>
   <launchable type="desktop-id">io.freetubeapp.FreeTube.desktop</launchable>
   <categories>
@@ -28,16 +346,150 @@
   <developer_name>FreeTube Team</developer_name>
   <screenshots>
     <screenshot type="default">
-      <caption>The main FreeTube window</caption>
       <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube1.png</image>
+      <caption>The main FreeTube window</caption>
+      <caption xml:lang="ar">نافذة FreeTube الرئيسية</caption>
+      <caption xml:lang="az">Əsas FreeTube pəncərəsi</caption>
+      <caption xml:lang="be">Галоўнае акно FreeTube</caption>
+      <caption xml:lang="bg">Главният прозорец на FreeTube</caption>
+      <caption xml:lang="bn">মূল FreeTube উইন্ডো</caption>
+      <caption xml:lang="ca">La finestra principal de FreeTube</caption>
+      <caption xml:lang="cs">Hlavní okno FreeTube</caption>
+      <caption xml:lang="da">FreeTube-hovedvinduet</caption>
+      <caption xml:lang="de">Das FreeTube-Hauptfenster</caption>
+      <caption xml:lang="el">Το κύριο παράθυρο του FreeTube</caption>
+      <caption xml:lang="en_GB">The main FreeTube window</caption>
+      <caption xml:lang="eo">La ĉefa fenestro de FreeTube</caption>
+      <caption xml:lang="es">Ventana principal de FreeTube</caption>
+      <caption xml:lang="et">FreeTube'i peaaken</caption>
+      <caption xml:lang="fa">پنجره اصلی FreeTube</caption>
+      <caption xml:lang="fi">FreeTuben pääikkuna</caption>
+      <caption xml:lang="fil">Ang pangunahing window ng FreeTube</caption>
+      <caption xml:lang="fr">Fenêtre principale de FreeTube</caption>
+      <caption xml:lang="ga">An phríomhfhuinneog FreeTube</caption>
+      <caption xml:lang="he">חלון FreeTube הראשי</caption>
+      <caption xml:lang="hi">मुख्य FreeTube विंडो</caption>
+      <caption xml:lang="hr">Glavni prozor FreeTubea</caption>
+      <caption xml:lang="hu">A FreeTube fő ablaka</caption>
+      <caption xml:lang="hy">FreeTube-ի գլխավոր պատուհանը</caption>
+      <caption xml:lang="id">Jendela utama FreeTube</caption>
+      <caption xml:lang="it">La finestra principale di FreeTube</caption>
+      <caption xml:lang="ja">FreeTubeのメインウィンドウ</caption>
+      <caption xml:lang="kn">ಮುಖ್ಯ FreeTube ವಿಂಡೋ</caption>
+      <caption xml:lang="ko">FreeTube 메인 창</caption>
+      <caption xml:lang="lt">Pagrindinis „FreeTube“ langas</caption>
+      <caption xml:lang="nl">Het hoofdvenster van FreeTube</caption>
+      <caption xml:lang="oc">La fenèstra principala de FreeTube</caption>
+      <caption xml:lang="pa">ਮੁੱਖ FreeTube ਵਿੰਡੋ</caption>
+      <caption xml:lang="pl">Główne okno FreeTube</caption>
+      <caption xml:lang="pt_BR">Janela principal do FreeTube</caption>
+      <caption xml:lang="pt">Janela principal do FreeTube</caption>
+      <caption xml:lang="ro">Fereastra principală FreeTube</caption>
+      <caption xml:lang="ru">Главное окно FreeTube</caption>
+      <caption xml:lang="si">ප්‍රධාන FreeTube කවුළුව</caption>
+      <caption xml:lang="sq">Dritarja kryesore e FreeTube</caption>
+      <caption xml:lang="sv">FreeTube-huvudfönstret</caption>
+      <caption xml:lang="ta">முக்கிய FreeTube சாளரம்</caption>
+      <caption xml:lang="tr">Ana FreeTube penceresi</caption>
+      <caption xml:lang="uk">Головне вікно FreeTube</caption>
+      <caption xml:lang="vi">Cửa sổ FreeTube chính</caption>
     </screenshot>
     <screenshot>
-      <caption>Watching a video</caption>
       <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube2.png</image>
+      <caption>Watching a video</caption>
+      <caption xml:lang="ar">مشاهدة فيديو</caption>
+      <caption xml:lang="az">Videoya baxılır</caption>
+      <caption xml:lang="be">Прагляд відэа</caption>
+      <caption xml:lang="bg">Гледане на видео</caption>
+      <caption xml:lang="bn">ভিডিও দেখা</caption>
+      <caption xml:lang="ca">Mirar un vídeo</caption>
+      <caption xml:lang="cs">Sledování videa</caption>
+      <caption xml:lang="da">Sådan ser du en video</caption>
+      <caption xml:lang="de">Video ansehen</caption>
+      <caption xml:lang="el">Παρακολούθηση βίντεο</caption>
+      <caption xml:lang="en_GB">Watching a video</caption>
+      <caption xml:lang="eo">Spektado de filmeto</caption>
+      <caption xml:lang="es">Ver un vídeo</caption>
+      <caption xml:lang="et">Video vaatamine</caption>
+      <caption xml:lang="fa">تماشای ویدیو</caption>
+      <caption xml:lang="fi">Videon katselu</caption>
+      <caption xml:lang="fil">Nanonood ng video</caption>
+      <caption xml:lang="fr">Regarder une vidéo</caption>
+      <caption xml:lang="ga">Ag féachaint ar fhíseán</caption>
+      <caption xml:lang="he">צפייה בסרטון</caption>
+      <caption xml:lang="hi">वीडियो देखना</caption>
+      <caption xml:lang="hr">Gledanje videa</caption>
+      <caption xml:lang="hu">Videó megtekintése</caption>
+      <caption xml:lang="hy">Տեսանյութի դիտում</caption>
+      <caption xml:lang="id">Menonton video</caption>
+      <caption xml:lang="it">Guardare un video</caption>
+      <caption xml:lang="ja">動画の視聴</caption>
+      <caption xml:lang="kn">ವೀಡಿಯೊ ವೀಕ್ಷಿಸುವುದು</caption>
+      <caption xml:lang="ko">동영상 시청</caption>
+      <caption xml:lang="lt">Vaizdo įrašo žiūrėjimas</caption>
+      <caption xml:lang="nl">Een video bekijken</caption>
+      <caption xml:lang="oc">En agachant una vidèo</caption>
+      <caption xml:lang="pa">ਵੀਡੀਓ ਦੇਖਣਾ</caption>
+      <caption xml:lang="pl">Oglądanie filmu</caption>
+      <caption xml:lang="pt_BR">Assistindo a um vídeo</caption>
+      <caption xml:lang="pt">Ver um vídeo</caption>
+      <caption xml:lang="ro">Vizionarea unui videoclip</caption>
+      <caption xml:lang="ru">Просмотр видео</caption>
+      <caption xml:lang="si">වීඩියෝවක් නැරඹීම</caption>
+      <caption xml:lang="sq">Duke parë një video</caption>
+      <caption xml:lang="sv">Titta på en video</caption>
+      <caption xml:lang="ta">வீடியோவைப் பார்த்தல்</caption>
+      <caption xml:lang="tr">Bir video izleme</caption>
+      <caption xml:lang="uk">Перегляд відео</caption>
+      <caption xml:lang="vi">Xem video</caption>
     </screenshot>
     <screenshot>
-      <caption>Settings</caption>
       <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube3.png</image>
+      <caption>Settings</caption>
+      <caption xml:lang="ar">الإعدادات</caption>
+      <caption xml:lang="az">Parametrlər</caption>
+      <caption xml:lang="be">Налады</caption>
+      <caption xml:lang="bg">Настройки</caption>
+      <caption xml:lang="bn">সেটিংস</caption>
+      <caption xml:lang="ca">Configuració</caption>
+      <caption xml:lang="cs">Nastavení</caption>
+      <caption xml:lang="da">Indstillinger</caption>
+      <caption xml:lang="de">Einstellungen</caption>
+      <caption xml:lang="el">Ρυθμίσεις</caption>
+      <caption xml:lang="en_GB">Settings</caption>
+      <caption xml:lang="eo">Agordoj</caption>
+      <caption xml:lang="es">Configuración</caption>
+      <caption xml:lang="et">Seaded</caption>
+      <caption xml:lang="fa">تنظیمات</caption>
+      <caption xml:lang="fi">Asetukset</caption>
+      <caption xml:lang="fil">Mga setting</caption>
+      <caption xml:lang="fr">Paramètres</caption>
+      <caption xml:lang="ga">Socruithe</caption>
+      <caption xml:lang="he">הגדרות</caption>
+      <caption xml:lang="hi">सेटिंग्स</caption>
+      <caption xml:lang="hr">Postavke</caption>
+      <caption xml:lang="hu">Beállítások</caption>
+      <caption xml:lang="hy">Կարգավորումներ</caption>
+      <caption xml:lang="id">Pengaturan</caption>
+      <caption xml:lang="it">Impostazioni</caption>
+      <caption xml:lang="ja">設定</caption>
+      <caption xml:lang="ko">설정</caption>
+      <caption xml:lang="lt">Nustatymai</caption>
+      <caption xml:lang="nl">Instellingen</caption>
+      <caption xml:lang="oc">Paramètres</caption>
+      <caption xml:lang="pa">ਸੈਟਿੰਗਾਂ</caption>
+      <caption xml:lang="pl">Ustawienia</caption>
+      <caption xml:lang="pt_BR">Configurações</caption>
+      <caption xml:lang="pt">Configurações</caption>
+      <caption xml:lang="ro">Setări</caption>
+      <caption xml:lang="ru">Настройки</caption>
+      <caption xml:lang="si">සැකසීම්</caption>
+      <caption xml:lang="sq">Cilësimet</caption>
+      <caption xml:lang="sv">Inställningar</caption>
+      <caption xml:lang="ta">அமைப்புகள்</caption>
+      <caption xml:lang="tr">Ayarlar</caption>
+      <caption xml:lang="uk">Налаштування</caption>
+      <caption xml:lang="vi">Cài đặt</caption>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.0">
