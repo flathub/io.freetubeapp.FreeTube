@@ -4,7 +4,48 @@
   <metadata_license>CC0-1.0</metadata_license>
   <name>FreeTube</name>
   <summary>An open-source YouTube app for privacy</summary>
+  <summary xml:lang="ar">تطبيق يوتيوب مفتوح المصدر للخصوصية</summary>
+  <summary xml:lang="be">Праграма YouTube з адкрытым зыходным кодам для забеспячэння прыватнасці</summary>
+  <summary xml:lang="bg">Приложение за YouTube с отворен код за поверителност</summary>
+  <summary xml:lang="ca">Una aplicació de YouTube de codi obert per a la privadesa</summary>
+  <summary xml:lang="cs">Open-source aplikace YouTube pro ochranu soukromí</summary>
+  <summary xml:lang="de">Eine Open-Source-YouTube-App für den Datenschutz</summary>
+  <summary xml:lang="el">Μια εφαρμογή YouTube ανοιχτού κώδικα για προστασία απορρήτου</summary>
+  <summary xml:lang="en_AU">An open-source YouTube app for privacy</summary>
+  <summary xml:lang="en_GB">An open-source YouTube app for privacy</summary>
+  <summary xml:lang="en">An open-source YouTube app for privacy</summary>
+  <summary xml:lang="es">Una aplicación de YouTube de código abierto para la privacidad</summary>
+  <summary xml:lang="fi">Avoimen lähdekoodin YouTube-sovellus yksityisyyden suojaamiseksi</summary>
+  <summary xml:lang="fr">Une application YouTube open source pour la confidentialité</summary>
+  <summary xml:lang="he">אפליקציית YouTube בקוד פתוח לשמירה על פרטיות</summary>
+  <summary xml:lang="hr">YouTube aplikacija otvorenog koda za privatnost</summary>
   <summary xml:lang="hu">Nyílt forráskódú YouTube-alkalmazás az adatvédelem érdekében</summary>
+  <summary xml:lang="id">Aplikasi YouTube sumber terbuka untuk privasi</summary>
+  <summary xml:lang="is">Opinn YouTube app fyrir friðhelgi einkalífsins</summary>
+  <summary xml:lang="it">Un'app YouTube open source per la privacy</summary>
+  <summary xml:lang="ja">プライバシー保護のためのオープンソースのYouTubeアプリ</summary>
+  <summary xml:lang="kn">ಗೌಪ್ಯತೆಗಾಗಿ ಓಪನ್ ಸೋರ್ಸ್ YouTube ಅಪ್ಲಿಕೇಶನ್</summary>
+  <summary xml:lang="ko">개인 정보 보호를 위한 오픈 소스 YouTube 앱</summary>
+  <summary xml:lang="lt">Atvirojo kodo „YouTube“ programėlė privatumui užtikrinti</summary>
+  <summary xml:lang="lv">Atvērtā koda YouTube lietotne privātuma nodrošināšanai</summary>
+  <summary xml:lang="nl">Een open-source YouTube-app voor privacy</summary>
+  <summary xml:lang="no_NY">En YouTube-app med åpen kildekode for personvern</summary>
+  <summary xml:lang="pl">Aplikacja YouTube z otwartym kodem źródłowym zapewniająca prywatność</summary>
+  <summary xml:lang="pt_BR">Um aplicativo de código aberto do YouTube para privacidade</summary>
+  <summary xml:lang="pt">Uma aplicação de código aberto do YouTube para privacidade</summary>
+  <summary xml:lang="ro">O aplicație YouTube open-source pentru confidențialitate</summary>
+  <summary xml:lang="ru">Приложение YouTube с открытым исходным кодом для обеспечения конфиденциальности</summary>
+  <summary xml:lang="sk">Aplikácia YouTube s otvoreným zdrojovým kódom pre ochranu súkromia</summary>
+  <summary xml:lang="sl">Odprtokodna aplikacija YouTube za zasebnost</summary>
+  <summary xml:lang="sq">Një aplikacion YouTube me burim të hapur për privatësi</summary>
+  <summary xml:lang="sr">YouTube апликација отвореног кода за приватност</summary>
+  <summary xml:lang="sv_SE">En YouTube-app med öppen källkod för integritet</summary>
+  <summary xml:lang="ta">தனியுரிமைக்கான ஓப்பன் சோர்ஸ் YouTube பயன்பாடு</summary>
+  <summary xml:lang="tr">Gizlilik için açık kaynaklı bir YouTube uygulaması</summary>
+  <summary xml:lang="uk">Додаток YouTube з відкритим кодом для забезпечення конфіденційності</summary>
+  <summary xml:lang="vi">Một ứng dụng YouTube nguồn mở bảo vệ quyền riêng tư</summary>
+  <summary xml:lang="zh_CN">一款保护隐私的开源 YouTube 应用</summary>
+  <summary xml:lang="zh_TW">一款保護隱私的開源 YouTube 應用</summary>
   <description>
     <p>
       FreeTube is an open-source desktop YouTube player built with privacy in
