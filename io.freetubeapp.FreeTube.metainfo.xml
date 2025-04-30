@@ -16,7 +16,6 @@
   <summary xml:lang="el">Μια εφαρμογή YouTube ανοιχτού κώδικα για προστασία απορρήτου</summary>
   <summary xml:lang="en_AU">An open-source YouTube app for privacy</summary>
   <summary xml:lang="en_GB">An open-source YouTube app for privacy</summary>
-  <summary xml:lang="en">An open-source YouTube app for privacy</summary>
   <summary xml:lang="eo">Malfermfonteca YouTube-aplikaĵo por privateco</summary>
   <summary xml:lang="es">Una aplicación de YouTube de código abierto para la privacidad</summary>
   <summary xml:lang="et">Avatud lähtekoodiga YouTube'i rakendus privaatsuse tagamiseks</summary>
@@ -142,12 +141,6 @@
       FreeTube is an open-source desktop YouTube player built with privacy in mind. Use YouTube without advertisements and prevent Google from tracking you with their cookies and JavaScript. Available for GNU/Linux, macOS, and Windows thanks to Electron.
     </p>
     <p xml:lang="en_GB">
-      Please note that FreeTube is currently in Beta. While it should work well for most users, there are still bugs and missing features that need to be addressed.
-    </p>
-    <p xml:lang="en">
-      FreeTube is an open-source desktop YouTube player built with privacy in mind. Use YouTube without advertisements and prevent Google from tracking you with their cookies and JavaScript. Available for GNU/Linux, macOS, and Windows thanks to Electron.
-    </p>
-    <p xml:lang="en">
       Please note that FreeTube is currently in Beta. While it should work well for most users, there are still bugs and missing features that need to be addressed.
     </p>
     <p xml:lang="eo">
@@ -438,7 +431,6 @@
       <caption xml:lang="el">Το κύριο παράθυρο του FreeTube</caption>
       <caption xml:lang="en_AU">The main FreeTube window</caption>
       <caption xml:lang="en_GB">The main FreeTube window</caption>
-      <caption xml:lang="en">The main FreeTube window</caption>
       <caption xml:lang="eo">La ĉefa fenestro de FreeTube</caption>
       <caption xml:lang="es">Ventana principal de FreeTube</caption>
       <caption xml:lang="et">FreeTube'i peaaken</caption>
@@ -498,7 +490,6 @@
       <caption xml:lang="el">Παρακολούθηση βίντεο</caption>
       <caption xml:lang="en_AU">Watching a video</caption>
       <caption xml:lang="en_GB">Watching a video</caption>
-      <caption xml:lang="en">Watching a video</caption>
       <caption xml:lang="eo">Spektado de filmeto</caption>
       <caption xml:lang="es">Ver un vídeo</caption>
       <caption xml:lang="et">Video vaatamine</caption>
@@ -558,7 +549,6 @@
       <caption xml:lang="el">Ρυθμίσεις</caption>
       <caption xml:lang="en_AU">Settings</caption>
       <caption xml:lang="en_GB">Settings</caption>
-      <caption xml:lang="en">Settings</caption>
       <caption xml:lang="eo">Agordoj</caption>
       <caption xml:lang="es">Configuración</caption>
       <caption xml:lang="et">Seaded</caption>
