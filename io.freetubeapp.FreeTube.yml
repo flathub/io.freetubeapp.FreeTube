@@ -1,7 +1,6 @@
 app-id: io.freetubeapp.FreeTube
 runtime: org.freedesktop.Platform
 runtime-version: '24.08'
-branch: stable
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
 base-version: '24.08'
