@@ -1,7 +1,6 @@
 app-id: io.freetubeapp.FreeTube
 runtime: org.freedesktop.Platform
 runtime-version: '24.08'
-branch: stable
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
 base-version: '24.08'
@@ -27,13 +26,13 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.8-beta/freetube-0.23.8-beta-linux-x64-portable.zip
-        sha256: 6cfba8e67740a8d5a6ab85f3694c779dc2a03b4b40610881ba92d7a212a3ceff
+        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.9-beta/freetube-0.23.9-beta-linux-x64-portable.zip
+        sha256: 113ec430bf2f1176f83fda129b331d6639816a3f6cfc59d3faa586791a12ee58
       - type: file
         only-arches:
           - aarch64
-        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.8-beta/freetube-0.23.8-beta-linux-arm64-portable.zip
-        sha256: 90899f3aa05db569761f59bde7a58602d86e29206ec54c0e540aa2ac80828a3d
+        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.9-beta/freetube-0.23.9-beta-linux-arm64-portable.zip
+        sha256: 272cc700d7403cdf0e15fb4cc2a51e37330a2dd5c6f0425ae5a3a2cfdb1c6528
       # Icon
       - type: file
         url: https://raw.githubusercontent.com/FreeTubeApp/FreeTube/master/_icons/icon.svg
