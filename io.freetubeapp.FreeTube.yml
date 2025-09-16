@@ -20,7 +20,6 @@ finish-args:
   - --talk-name=org.freedesktop.ScreenSaver
   - --talk-name=org.gnome.SessionManager
   - --talk-name=org.gnome.SettingsDaemon
-  - --env=ELECTRON_OZONE_PLATFORM_HINT=auto
 modules:
   - name: freetube
     buildsystem: simple
