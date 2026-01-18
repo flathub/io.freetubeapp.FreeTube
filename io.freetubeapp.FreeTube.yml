@@ -12,7 +12,6 @@ finish-args:
   - --socket=x11
   - --socket=pulseaudio
   - --share=network
-  - --filesystem=xdg-download
   - --own-name=org.mpris.MediaPlayer2.chromium.*
   - --own-name=org.mpris.MediaPlayer2.freetube
   - --talk-name=org.freedesktop.PowerManagement
