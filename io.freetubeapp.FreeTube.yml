@@ -29,6 +29,7 @@ modules:
         url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.13-beta/freetube-0.23.13-beta-linux-x64-portable.zip
         sha256: 51cc5049e9ae4faa4b72d020c4e85ad5de57af7480f19c66d7df432ddfdeb089
         x-checker-data:
+          is-main-source: true
           type: json
           url: https://api.github.com/repos/FreeTubeApp/FreeTube/releases?per_page=1
           version-query: .[0].tag_name
@@ -41,6 +42,7 @@ modules:
         url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.13-beta/freetube-0.23.13-beta-linux-arm64-portable.zip
         sha256: a1af5f2d0711e409f7b7fd4051374de022eba8b3c298c071d416909e81e3f579
         x-checker-data:
+          is-main-source: true
           type: json
           url: https://api.github.com/repos/FreeTubeApp/FreeTube/releases?per_page=1
           version-query: .[0].tag_name
