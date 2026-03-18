@@ -26,27 +26,29 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.14-beta/freetube-0.23.14-beta-linux-x64-portable.zip
-        sha256: 45a5dfa9edf3d1b2cc53feca9a759816af3f752beb63686a2c1b4d4a0b90b033
+        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.15-beta/freetube-0.23.15-beta-linux-x64-portable.zip
+        sha256: c729a3040c17f9900e817cf45c295ab00575b0b86f53bf3c56cd2f7456a2c3be
         x-checker-data:
           is-main-source: true
           type: json
           url: https://api.github.com/repos/FreeTubeApp/FreeTube/releases?per_page=1
           version-query: .[0].tag_name
-          url-query: .[0].assets[] | select(.name | endswith("-linux-x64-portable.zip")) | .browser_download_url
+          url-query: .[0].assets[] | select(.name | endswith("-linux-x64-portable.zip"))
+            | .browser_download_url
           timestamp-query: .[0].published_at
           release-url-template: https://github.com/FreeTubeApp/FreeTube/releases/tag/$version
       - type: file
         only-arches:
           - aarch64
-        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.14-beta/freetube-0.23.14-beta-linux-arm64-portable.zip
-        sha256: e8cdd05ce2be7ce6a6ff2b9ae21445224f423f2b1148542beb0820268df421b7
+        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.15-beta/freetube-0.23.15-beta-linux-arm64-portable.zip
+        sha256: ac96be1c609e4e1f976a1f84bc1d815d101f92c9f990280fb3554fb7c2bfee57
         x-checker-data:
           is-main-source: true
           type: json
           url: https://api.github.com/repos/FreeTubeApp/FreeTube/releases?per_page=1
           version-query: .[0].tag_name
-          url-query: .[0].assets[] | select(.name | endswith("-linux-arm64-portable.zip")) | .browser_download_url
+          url-query: .[0].assets[] | select(.name | endswith("-linux-arm64-portable.zip"))
+            | .browser_download_url
           timestamp-query: .[0].published_at
           release-url-template: https://github.com/FreeTubeApp/FreeTube/releases/tag/$version
       # Icon
