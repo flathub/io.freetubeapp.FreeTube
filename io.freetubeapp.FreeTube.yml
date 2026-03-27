@@ -71,4 +71,4 @@ modules:
       - install -Dm644 icon.svg /app/share/icons/hicolor/scalable/apps/io.freetubeapp.FreeTube.svg
       - install -Dm644 io.freetubeapp.FreeTube.desktop -t /app/share/applications/
       - install -Dm644 io.freetubeapp.FreeTube.metainfo.xml -t /app/share/metainfo/
-      - patch-desktop-filename "${FLATPAK_DEST}"/freetube/resources/app.asar
+      - patch-electron-desktop-filename "${FLATPAK_DEST}"/freetube/resources/app.asar
