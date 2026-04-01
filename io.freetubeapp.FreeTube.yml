@@ -9,10 +9,10 @@ separate-locales: false
 finish-args:
   - --device=dri
   - --share=ipc
-  - --socket=x11
+  - --socket=wayland
+  - --socket=fallback-x11
   - --socket=pulseaudio
   - --share=network
-  - --filesystem=xdg-download
   - --own-name=org.mpris.MediaPlayer2.chromium.*
   - --own-name=org.mpris.MediaPlayer2.freetube
   - --talk-name=org.freedesktop.PowerManagement
