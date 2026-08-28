@@ -7,5 +7,6 @@ Icon=io.freetubeapp.FreeTube
 Type=Application
 StartupNotify=true
 StartupWMClass=FreeTube
-Categories=GNOME;GTK;AudioVideo;Network;Utility;
+Categories=AudioVideo;Video;Player;Feed;Network;
+Keywords=youtube;video;yt;invidious;sponsorblock;
 MimeType=x-scheme-handler/freetube;

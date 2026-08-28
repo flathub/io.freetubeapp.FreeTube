@@ -53,8 +53,8 @@ modules:
           release-url-template: https://github.com/FreeTubeApp/FreeTube/releases/tag/$version
       # Icon
       - type: file
-        url: https://raw.githubusercontent.com/FreeTubeApp/FreeTube/master/_icons/icon.svg
-        sha256: 26c9c74d6684655170d579794886e146cb71faf21cae343393d487600ce318f1
+        url: https://raw.githubusercontent.com/FreeTubeApp/FreeTube/c3be513a586d235cbde730c66e49523aeeb5372f/_icons/iconFlathub.svg
+        sha256: f6f6da27b839f04ecdc01e743435e898d0043e700178d712bfa5c01900541f90
       # Wrapper to launch the app
       - type: file
         path: run.sh
@@ -68,7 +68,7 @@ modules:
       # Install app wrapper
       - install run.sh /app/bin/
       # Install app icon and desktop file
-      - install -Dm644 icon.svg /app/share/icons/hicolor/scalable/apps/io.freetubeapp.FreeTube.svg
+      - install -Dm644 iconFlathub.svg /app/share/icons/hicolor/scalable/apps/io.freetubeapp.FreeTube.svg
       - install -Dm644 io.freetubeapp.FreeTube.desktop -t /app/share/applications/
       - install -Dm644 io.freetubeapp.FreeTube.metainfo.xml -t /app/share/metainfo/
       - patch-electron-desktop-filename "${FLATPAK_DEST}"/freetube/resources/app.asar

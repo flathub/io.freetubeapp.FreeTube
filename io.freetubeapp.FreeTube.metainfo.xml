@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id type="desktop-application">io.freetubeapp.FreeTube</id>
+  <id>io.freetubeapp.FreeTube</id>
   <metadata_license>CC0-1.0</metadata_license>
+  <project_license>AGPL-3.0+</project_license>
   <name>FreeTube</name>
-  <summary>An Open Source YouTube app for privacy</summary>
+  <summary>Watch YouTube privately</summary>
+  <developer id="io.freetubeapp">
+    <name>FreeTube Team</name>
+  </developer>
   <description>
     <p>FreeTube is an open source desktop YouTube player built with privacy in
     mind. Use YouTube without advertisements and prevent Google from tracking
@@ -14,46 +18,65 @@
     addressed.</p>
   </description>
   <launchable type="desktop-id">io.freetubeapp.FreeTube.desktop</launchable>
-  <categories>
-    <category>AudioVideo</category>
-    <category>Video</category>
-  </categories>
+  
+  <branding>
+    <color type="primary" scheme_preference="light">#f06a73</color>
+    <color type="primary" scheme_preference="dark">#8b1e2d</color>
+  </branding>
+
+  <content_rating type="oars-1.1" />
+
   <url type="homepage">https://freetubeapp.io/</url>
   <url type="bugtracker">https://github.com/FreeTubeApp/FreeTube/issues</url>
   <url type="help">https://docs.freetubeapp.io/</url>
   <url type="contribute">https://docs.freetubeapp.io/development/getting-started</url>
   <url type="vcs-browser">https://github.com/FreeTubeApp/FreeTube</url>
   <url type="translate">https://hosted.weblate.org/engage/free-tube/</url>
-  <project_license>AGPL-3.0+</project_license>
-  <developer_name>FreeTube Team</developer_name>
+  <url type="contact">https://freetubeapp.io/#contact</url>
+
   <screenshots>
-    <screenshot type="default">
-      <caption>The main FreeTube window</caption>
-      <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube1.png</image>
-    </screenshot>
-    <screenshot>
+    <screenshot type="default" environment="gnome">
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/833dcbd6d0c53f5e0d9add84752eef101a4c25b1/src/images/FreeTubeFlathub1.png</image>
       <caption>Watching a video</caption>
-      <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube2.png</image>
     </screenshot>
-    <screenshot>
-      <caption>Settings</caption>
-      <image type="source" width="1920" height="1040">https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/master/src/images/FreeTube3.png</image>
+    <screenshot environment="gnome">
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/833dcbd6d0c53f5e0d9add84752eef101a4c25b1/src/images/FreeTubeFlathub2.png</image>
+      <caption>Browse videos from subscribed channels</caption>
+    </screenshot>
+    <screenshot environment="gnome">
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/833dcbd6d0c53f5e0d9add84752eef101a4c25b1/src/images/FreeTubeFlathub3.png</image>
+      <caption>Search for and discover content</caption>
+    </screenshot>
+    <screenshot environment="gnome">
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/833dcbd6d0c53f5e0d9add84752eef101a4c25b1/src/images/FreeTubeFlathub4.png</image>
+      <caption>Manage subscribed channels</caption>
+    </screenshot>
+    <screenshot environment="gnome">
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/833dcbd6d0c53f5e0d9add84752eef101a4c25b1/src/images/FreeTubeFlathub5.png</image>
+      <caption>Create playlists and save videos for later</caption>
+    </screenshot>
+    <screenshot environment="gnome">
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/833dcbd6d0c53f5e0d9add84752eef101a4c25b1/src/images/FreeTubeFlathub6.png</image>
+      <caption>View your watch history</caption>
+    </screenshot>
+    <screenshot environment="gnome:dark">
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/833dcbd6d0c53f5e0d9add84752eef101a4c25b1/src/images/FreeTubeFlathub7.png</image>
+      <caption>Watch a video in dark mode</caption>
     </screenshot>
   </screenshots>
-  <content_rating type="oars-1.0">
-    <content_attribute id="social-chat">moderate</content_attribute>
-    <content_attribute id="social-audio">moderate</content_attribute>
-    <content_attribute id="social-contacts">intense</content_attribute>
-  </content_rating>
-  <!-- Desktop AND mobile supported -->
+
   <supports>
     <control>keyboard</control>
     <control>pointing</control>
     <control>touch</control>
   </supports>
+  <recommends>
+    <internet>always</internet>
+  </recommends>
   <requires>
     <display_length compare="ge">360</display_length>
   </requires>
+
   <releases>
     <release version="v0.25.3-beta" date="2026-08-28">
       <url type="details">https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.25.3-beta</url>
