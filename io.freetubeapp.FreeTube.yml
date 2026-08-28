@@ -26,8 +26,8 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.25.2-beta/freetube-0.25.2-beta-linux-x64-portable.zip
-        sha256: d7a68960999655bb229b77c8570444389217957f03ef4dde434e43ef692840a2
+        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.25.3-beta/freetube-0.25.3-beta-linux-x64-portable.zip
+        sha256: e3a671357ac32edcd872c6ea3218c8921bd0fda7318706d8570ece44d2c1fcbf
         x-checker-data:
           is-main-source: true
           type: json
@@ -40,8 +40,8 @@ modules:
       - type: file
         only-arches:
           - aarch64
-        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.25.2-beta/freetube-0.25.2-beta-linux-arm64-portable.zip
-        sha256: 90709db1cab69080aed9ff910258774caf2422ca7ccb43e0619f75c2860a4580
+        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.25.3-beta/freetube-0.25.3-beta-linux-arm64-portable.zip
+        sha256: 2416b0ce365b4bea0caf3d17b177ac134c9d9a627a4a97bac01afaca2c1c681e
         x-checker-data:
           is-main-source: true
           type: json
