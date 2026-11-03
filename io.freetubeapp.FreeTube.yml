@@ -26,8 +26,9 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.25.3-beta/freetube-0.25.3-beta-linux-x64-portable.zip
-        sha256: e3a671357ac32edcd872c6ea3218c8921bd0fda7318706d8570ece44d2c1fcbf
+        url: 
+          https://github.com/FreeTubeApp/FreeTube/releases/download/v0.26.0-beta/freetube-0.26.0-beta-linux-x64-portable.zip
+        sha256: 1fc96c7d3b7c7574e87f2549ba1686c3ddc04232f2ebae848be0b6763a6a741d
         x-checker-data:
           is-main-source: true
           type: json
@@ -40,8 +41,9 @@ modules:
       - type: file
         only-arches:
           - aarch64
-        url: https://github.com/FreeTubeApp/FreeTube/releases/download/v0.25.3-beta/freetube-0.25.3-beta-linux-arm64-portable.zip
-        sha256: 2416b0ce365b4bea0caf3d17b177ac134c9d9a627a4a97bac01afaca2c1c681e
+        url: 
+          https://github.com/FreeTubeApp/FreeTube/releases/download/v0.26.0-beta/freetube-0.26.0-beta-linux-arm64-portable.zip
+        sha256: 3eaf3e68c502857c1c8e033b84987deee39ba5e89cdec06b86566240c7cbb37b
         x-checker-data:
           is-main-source: true
           type: json
@@ -53,7 +55,8 @@ modules:
           release-url-template: https://github.com/FreeTubeApp/FreeTube/releases/tag/$version
       # Icon
       - type: file
-        url: https://raw.githubusercontent.com/FreeTubeApp/FreeTube/c3be513a586d235cbde730c66e49523aeeb5372f/_icons/iconFlathub.svg
+        url: 
+          https://raw.githubusercontent.com/FreeTubeApp/FreeTube/c3be513a586d235cbde730c66e49523aeeb5372f/_icons/iconFlathub.svg
         sha256: f6f6da27b839f04ecdc01e743435e898d0043e700178d712bfa5c01900541f90
       # Wrapper to launch the app
       - type: file
