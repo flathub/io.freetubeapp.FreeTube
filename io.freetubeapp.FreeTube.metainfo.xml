@@ -36,31 +36,31 @@
 
   <screenshots>
     <screenshot type="default" environment="gnome">
-      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/833dcbd6d0c53f5e0d9add84752eef101a4c25b1/src/images/FreeTubeFlathub1.png</image>
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/849e03f449bcf530832bc95ff253221102bc04fd/src/images/FreeTubeFlathub1.png</image>
       <caption>Watching a video</caption>
     </screenshot>
     <screenshot environment="gnome">
-      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/833dcbd6d0c53f5e0d9add84752eef101a4c25b1/src/images/FreeTubeFlathub2.png</image>
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/849e03f449bcf530832bc95ff253221102bc04fd/src/images/FreeTubeFlathub2.png</image>
       <caption>Browse videos from subscribed channels</caption>
     </screenshot>
     <screenshot environment="gnome">
-      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/833dcbd6d0c53f5e0d9add84752eef101a4c25b1/src/images/FreeTubeFlathub3.png</image>
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/849e03f449bcf530832bc95ff253221102bc04fd/src/images/FreeTubeFlathub3.png</image>
       <caption>Search for and discover content</caption>
     </screenshot>
     <screenshot environment="gnome">
-      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/833dcbd6d0c53f5e0d9add84752eef101a4c25b1/src/images/FreeTubeFlathub4.png</image>
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/849e03f449bcf530832bc95ff253221102bc04fd/src/images/FreeTubeFlathub4.png</image>
       <caption>Manage subscribed channels</caption>
     </screenshot>
     <screenshot environment="gnome">
-      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/833dcbd6d0c53f5e0d9add84752eef101a4c25b1/src/images/FreeTubeFlathub5.png</image>
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/849e03f449bcf530832bc95ff253221102bc04fd/src/images/FreeTubeFlathub5.png</image>
       <caption>Create playlists and save videos for later</caption>
     </screenshot>
     <screenshot environment="gnome">
-      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/833dcbd6d0c53f5e0d9add84752eef101a4c25b1/src/images/FreeTubeFlathub6.png</image>
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/849e03f449bcf530832bc95ff253221102bc04fd/src/images/FreeTubeFlathub6.png</image>
       <caption>View your watch history</caption>
     </screenshot>
     <screenshot environment="gnome:dark">
-      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/833dcbd6d0c53f5e0d9add84752eef101a4c25b1/src/images/FreeTubeFlathub7.png</image>
+      <image>https://raw.githubusercontent.com/FreeTubeApp/FreeTubeApp.io/849e03f449bcf530832bc95ff253221102bc04fd/src/images/FreeTubeFlathub7.png</image>
       <caption>Watch a video in dark mode</caption>
     </screenshot>
   </screenshots>
