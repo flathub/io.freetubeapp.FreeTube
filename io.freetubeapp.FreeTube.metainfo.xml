@@ -24,7 +24,7 @@
     <color type="primary" scheme_preference="dark">#8b1e2d</color>
   </branding>
 
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
 
   <url type="homepage">https://freetubeapp.io/</url>
   <url type="bugtracker">https://github.com/FreeTubeApp/FreeTube/issues</url>
@@ -78,9 +78,13 @@
   </requires>
 
   <releases>
+    <release version="v0.26.0-beta" date="2026-11-02">
+      <url type="details">https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.26.0-beta</url>
+      <description></description>
+    </release>
     <release version="v0.25.3-beta" date="2026-08-28">
       <url type="details">https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.25.3-beta</url>
-      <description></description>
+      <description/>
     </release>
     <release version="v0.25.2-beta" date="2026-08-11">
       <url type="details">https://github.com/FreeTubeApp/FreeTube/releases/tag/v0.25.2-beta</url>
